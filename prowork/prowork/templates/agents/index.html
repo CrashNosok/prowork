@@ -1,0 +1,178 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Agents{% endblock %}
+{% block stat %}<link rel="stylesheet" href="{% static 'css/agents_style.css' %}">{% endblock %}
+
+{% block content %}
+<div class="m-menu-wrapper">
+  <header class="m-header">
+    <div class="m-container">
+      <div class="m-header-body">
+        <a href="#" class="m-header-logo">
+          <img src="{% static 'img/logo.jpg' %}" alt="">
+        </a>
+        <div class="m-header-burger">
+          <span></span>
+        </div>
+        <nav class="m-header-menu">
+          <ul class="m-header-list">
+            <li>
+              <a href="#" class="m-header-link gen_menu">На главную</a>
+            </li>
+            <li>
+              <a href="#anch-masters" class="m-header-link gen_menu">Мастера</a>
+            </li>
+            <li>
+              <a href="#anch-uslugi" class="m-header-link gen_menu">Услуги</a>
+            </li>
+            <li>
+              <a href="#anch-contacts" class="m-header-link gen_menu">Контакты</a>
+            </li>
+            <li>
+              <a id="myBtn" href="#" class="m-header-link m-button">
+                {{ city }}
+              </a>
+
+              <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Выбрать город:</h2>
+                <div class="check">
+                <ul class="city-list">
+
+                  {% for elem in city_list %}
+                    <a href="/agents/{{ elem }}"><li class="city-item">{{ elem }}</li></a>
+                  {% endfor %}
+
+                </ul>
+              </div>
+              </div>
+            </div>
+
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  </div>
+    <main>
+      <section id="anch-masters" class="agents">
+        <div class="wrapper">
+          <h2>Meet Our Agents</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br />
+            Neque dicta cupiditate officia.
+          </p>
+
+          <div class="agent-cards">
+
+            {% if workers_list %}
+              {% for worker in workers_list %}
+
+            <div class="agent-desc">
+              <div class="agent-card">
+                    <img src={{ worker.avatar.url }} alt="">
+                <div class="agent-info">
+                  <div class="name-email">
+                    <p>{{ worker.profession }}</p>
+                    <p class="email">{{ worker.email }}</p>
+                  </div>
+                  <div class="agent-block">
+                    <p class="agent-name">{{ worker.name }}</p>
+                    <p class="phone">{{ worker.phone }}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="description">
+                <h2 class="agent-uslugi">Предоставляемые услуги:</h2>
+                <ul class="uslugi-list">
+
+                  {% for s in worker.serv %}
+                  <li><a class="uslugi-link" href="#anch-contacts">{{ s }}</a></li>
+                  {% endfor %}
+
+                </ul>
+              </div>
+            </div>
+              {% endfor %}
+            {% else %}
+              <h2>В настоящее время в вашем городе мы не работаем</h2>
+            {% endif %}
+          </div>
+        </div>
+      </section>
+
+      <section class="apartmens">
+        <div class="u-wrapper uslugi">
+          <h2 id="anch-uslugi">
+            Lorem, ipsum dolor.
+          </h2>
+          <p class="par">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <ul class="cards">
+
+            {% if persons %}
+
+            {% for prof in persons %}
+              <li class="h-list">
+                <div class="descr">
+                  <h3 class="headline">{{ prof.profession }}</h3>
+                  <p>{{ prof.profession_description }}</p>
+                  <div class="h-link">
+                    <a href="/agents/{{ city }}/{{ prof.profession }}" class="h-button">К нашим мастерам</a>
+                  </div>
+                </div>
+                <img class="u-img" src="/static/img/{{ prof.profession }}.jpg" alt="Alt" />
+              </li>
+            {% endfor %}
+
+            {% else %}
+            <p>На данный момент мы не работаем в Вашем городе</p>
+
+            {% endif %}
+
+          </ul>
+        </div>
+      </section>
+
+
+        <section id="anch-contacts" class="contacts">
+          <div class="wrap">
+            <div class="contacts_form wrapper">
+              <h3>Свяжитесь с нами:</h3>
+              <p class="phone">
+                <span class="jir">Phone: </span>+7 777 777 77 77
+              </p>
+              <p class="email">
+                <span class="jir">Email: </span>hello@world.com
+              </p>
+            </div>
+          </div>
+        </section>
+     
+    </main>
+
+
+    <footer>
+      <div class="wrapper">
+        <div class="footer-block">
+          <div class="footer-logo">
+            <h3>Luxestate</h3>
+            <h3>Explore Real Estate</h3>
+          </div>
+          <div class="footer-text">
+            <p>
+              Сайт не является публичной офертой и носит информационный 
+              характер.<br />             
+            </p>
+            <p class="sobaka">
+              ©All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="{% static 'js/agents_script.js' %}"></script>
+{% endblock %}

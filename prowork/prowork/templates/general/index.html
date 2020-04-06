@@ -1,0 +1,268 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Prowork{% endblock %}
+{% block stat %}
+<link rel="stylesheet" href="{% static 'css/general_style.css' %}">
+<script
+      src="https://kit.fontawesome.com/6244ce2d4b.js"
+      crossorigin="anonymous">
+</script>
+{% endblock %}
+
+{% block content %}
+
+
+<div class="m-menu-wrapper">
+  <header class="m-header">
+    <div class="m-container">
+      <div class="m-header-body">
+        <a href="#" class="m-header-logo">
+          <img src="{% static 'img/logo.jpg' %}" alt="">
+        </a>
+        <div class="m-header-burger">
+          <span></span>
+        </div>
+        <nav class="m-header-menu">
+          <ul class="m-header-list">
+            <li>
+              <a href="#anch-start" class="m-header-link gen_menu">К началу</a>
+            </li>
+            <li>
+              <a href="#anch-about" class="m-header-link gen_menu">О нас</a>
+            </li>
+            <li>
+              <a href="#anch-uslugi" class="m-header-link gen_menu">Услуги</a>
+            </li>
+            <li>
+              <a href="#anch-feedback" class="m-header-link gen_menu">Отзывы</a>
+            </li>
+            <li>
+              <a href="#anch-contacts" class="m-header-link gen_menu">Контакты</a>
+            </li>
+            <li>
+              <a id="myBtn" href="#" class="m-header-link m-button">{{ city }}</a>
+
+             <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Выбрать город:</h2>
+                <div class="check">
+                <ul class="city-list">
+
+                  {% for elem in city_list %}
+                    <a href="/{{ elem }}"><li class="city-item">{{ elem }}</li></a>
+                  {% endfor %}
+
+                </ul>
+              </div>
+              </div>
+            </div>
+
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  </div>
+
+
+    <main>
+      <section class="intro wrapper" id="anch-start">
+        <div class="intro-img">
+          <p class="intro-text">
+            Find Your New<br />
+            Modern Apartment
+          </p>
+        </div>
+        <div class="intro-contacts">
+          <p><i class="fas fa-phone-alt"></i>(000)1234-567</p>
+          <p><i class="fas fa-map-marker-alt"></i> <a id="second_btn" href="#">{{ city }}</a> </p>
+        </div>
+      </section>
+
+
+      <section class="services wrapper2">
+        <div class="wrapper">
+        <h2 id="anch-about">О нас</h2>
+        <p class="serv-desc">Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="serv-desc">Lorem ipsum dolor sit amet.</p>
+        <div class="serv-container">
+          <div class="serv-img-container">
+            <img src="{% static 'img/servroom.jpg' %}" alt="" />
+          </div>
+          <div class="serv-text">
+            <h4>Renting</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+              laborum, necessitatibus facere atque ducimus ut corporis
+              consectetur ea voluptatibus reprehenderit deleniti quam voluptas.
+            </p>
+            <h4>Renting</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+              laborum, necessitatibus facere atque ducimus ut corporis
+              consectetur ea voluptatibus reprehenderit deleniti quam voluptas.
+            </p>
+            <h4>Renting</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+              laborum, necessitatibus facere atque ducimus ut corporis
+              consectetur ea voluptatibus reprehenderit deleniti quam voluptas.
+            </p>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+      <section class="apartmens">
+        <div class="u-wrapper uslugi">
+          <h2 id="anch-uslugi">
+            Lorem, ipsum dolor.
+          </h2>
+          <p class="par">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <ul class="cards">
+
+            {% if persons %}
+
+            {% for prof in persons %}
+              <li class="h-list">
+                <div class="descr">
+                  <h3 class="headline">{{ prof.profession }}</h3>
+                  <p>{{ prof.profession_description }}</p>
+                  <div class="h-link">
+                    <a href="/agents/{{ city }}/{{ prof.profession }}" class="h-button">К нашим мастерам</a>
+                  </div>
+                </div>
+                <img class="u-img" src="/static/img/{{ prof.profession }}.jpg" alt="Alt" />
+              </li>
+            {% endfor %}
+
+            {% else %}
+            <p>На данный момент мы не работаем в Вашем городе</p>
+
+            {% endif %}
+
+          </ul>
+        </div>
+      </section>
+
+
+        <section class="c-header">
+          <h2 id="anch-feedback" class="c-header2">Наши клиенты любят нас</h2>
+          <ul class="c-cards">
+            <li>
+              <div class="c-container">
+                <div class="c-header-body">
+                  <a href="#" class="c-header-logo">
+                    <img src="{% static 'img/avatar1.jpg' %}" alt="">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">Имя Фамилия</h4>
+                    <span>Клиент</span>
+                  </div>
+                </div>
+                <div class="feedback-text">
+                  <p>Далеко-далеко за словесными горами в 
+                    стране гласных и согласных живут рыбные тексты. 
+                    Мир коварных ipsum которой родного?</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="c-container">
+                <div class="c-header-body">
+                  <a href="#" class="c-header-logo">
+                    <img src="{% static 'img/avatar1.jpg' %}" alt="">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">Имя Фамилия</h4>
+                    <span>Клиент</span>
+                  </div>
+                </div>
+                <div class="feedback-text">
+                  <p>Далеко-далеко за словесными горами в 
+                    стране гласных и согласных живут рыбные тексты. 
+                    Мир коварных ipsum которой родного?</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="c-container">
+                <div class="c-header-body">
+                  <a href="#" class="c-header-logo">
+                    <img src="{% static 'img/avatar1.jpg' %}" alt="">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">Имя Фамилия</h4>
+                    <span>Клиент</span>
+                  </div>
+                </div>
+                <div class="feedback-text">
+                  <p>Далеко-далеко за словесными горами в 
+                    стране гласных и согласных живут рыбные тексты. 
+                    Мир коварных ipsum которой родного?</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="c-container">
+                <div class="c-header-body">
+                  <a href="#" class="c-header-logo">
+                    <img src="{% static 'img/avatar1.jpg' %}" alt="">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">Имя Фамилия</h4>
+                    <span>Клиент</span>
+                  </div>
+                </div>
+                <div class="feedback-text">
+                  <p>Далеко-далеко за словесными горами в 
+                    стране гласных и согласных живут рыбные тексты. 
+                    Мир коварных ipsum которой родного?</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section id="anch-contacts" class="contacts">
+          <div class="wrap">
+            <div class="contacts_form wrapper">
+              <h3>Свяжитесь с нами:</h3>
+              <p class="phone">
+                <span class="jir">Phone: </span>+7 777 777 77 77
+              </p>
+              <p class="email">
+                <span class="jir">Email: </span>hello@world.com
+              </p>
+            </div>
+          </div>
+        </section>
+     
+    </main>
+
+
+    <footer>
+      <div class="wrapper">
+        <div class="footer-block">
+          <div class="footer-logo">
+            <h3>Luxestate</h3>
+            <h3>Explore Real Estate</h3>
+          </div>
+          <div class="footer-text">
+            <p>
+              Сайт не является публичной офертой и носит информационный 
+              характер.<br />             
+            </p>
+            <p class="sobaka">
+              ©All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="{% static 'js/general_script.js' %}"></script>
+{% endblock %}
