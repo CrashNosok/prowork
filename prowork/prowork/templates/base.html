@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,9 +6,87 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% block title %}Мой сайт{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="{% static 'js/base.js' %}"></script>
     {% block stat %}{% endblock %}
   </head>
 <body>
-    {% block content %}{% endblock %}
+
+    {% block general %}{% endblock %}
+
+    {% block choose_master %}
+      <section class="apartmens">
+        <div class="u-wrapper uslugi">
+          <h2 id="anch-uslugi">
+            Наши услуги
+          </h2>
+          <p class="par">Выберите необходимого специалиста</p>
+          <ul class="cards">
+
+            {% if persons %}
+
+            {% for prof in persons %}
+              <li class="h-list">
+                <div class="descr">
+                  <h3 class="headline">{{ prof.profession }}</h3>
+                  <p>{{ prof.profession_description }}</p>
+                  <div class="h-link">
+                    <a href="/agents/{{ city }}/{{ prof.profession }}" class="h-button">К нашим мастерам</a>
+                  </div>
+                </div>
+                <img class="u-img" src="/static/img/{{ prof.profession }}.jpg" alt="Alt" />
+              </li>
+            {% endfor %}
+
+            {% else %}
+            <p>На данный момент мы не работаем в Вашем городе</p>
+
+            {% endif %}
+
+          </ul>
+        </div>
+      </section>
+    {% endblock %}
+
+    {% block reviews %}{% endblock %}
+
+    {% block contacts %}
+      <section id="anch-contacts" class="contacts">
+          <div class="wrap">
+            <div class="contacts_form wrapper">
+              <h3>Свяжитесь с нами:</h3>
+              <p class="phone">
+                <span class="jir">Phone: </span>+7 961 168 60 04
+              </p>
+              <p class="email">
+                <span class="jir">Email: </span>prowork_kursk@mail.ru
+              </p>
+            </div>
+          </div>
+        </section>
+    {% endblock %}
+
+    {% block footer %}
+      <footer>
+      <div class="wrapper">
+        <div class="footer-block">
+          <div class="footer-logo">
+            <h3>Prowork</h3>
+            <h3>Твой личный мастер</h3>
+          </div>
+          <div class="footer-text">
+            <p>
+              Сайт не является публичной офертой и носит информационный 
+              характер.<br />             
+            </p>
+            <p class="sobaka">
+              ©All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    {% endblock %}
 </body>
 </html>

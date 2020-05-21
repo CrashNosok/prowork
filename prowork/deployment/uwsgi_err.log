@@ -1,0 +1,2405 @@
+*** Starting uWSGI 2.0.18-debian (64bit) on [Wed May 20 17:26:48 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Wed May 20 17:26:48 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5628dab53d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x5628dab53d10 pid: 24775 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24775)
+Wed May 20 17:26:50 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 24778, cores: 1)
+spawned uWSGI worker 2 (pid: 24779, cores: 1)
+spawned uWSGI worker 3 (pid: 24780, cores: 1)
+spawned uWSGI worker 4 (pid: 24781, cores: 1)
+spawned uWSGI worker 5 (pid: 24782, cores: 1)
+Wed May 20 17:26:50 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 6 (pid: 24783, cores: 1)
+spawned uWSGI worker 7 (pid: 24784, cores: 1)
+spawned uWSGI worker 8 (pid: 24785, cores: 1)
+spawned uWSGI worker 9 (pid: 24786, cores: 1)
+spawned uWSGI worker 10 (pid: 24787, cores: 1)
+[emperor] *** RAGNAROK EVOKED ***
+Wed May 20 17:27:28 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Wed May 20 14:27:28 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Wed May 20 17:27:31 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Wed May 20 17:27:32 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Wed May 20 17:27:34 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Wed May 20 17:27:34 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x558775ba4d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558775ba4d10 pid: 24836 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24836)
+Wed May 20 17:27:34 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 24838, cores: 1)
+spawned uWSGI worker 2 (pid: 24839, cores: 1)
+spawned uWSGI worker 3 (pid: 24840, cores: 1)
+spawned uWSGI worker 4 (pid: 24841, cores: 1)
+spawned uWSGI worker 5 (pid: 24842, cores: 1)
+spawned uWSGI worker 6 (pid: 24843, cores: 1)
+spawned uWSGI worker 7 (pid: 24844, cores: 1)
+spawned uWSGI worker 8 (pid: 24845, cores: 1)
+spawned uWSGI worker 9 (pid: 24846, cores: 1)
+spawned uWSGI worker 10 (pid: 24847, cores: 1)
+Wed May 20 17:27:34 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+[pid: 24839|app: 0|req: 1/1] 90.151.98.146 () {44 vars in 799 bytes} [Wed May 20 14:27:34 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 97 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed May 20 17:27:34 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+Wed May 20 14:27:35 2020 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /favicon.ico (ip 90.151.98.146) !!!
+Wed May 20 14:27:35 2020 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during GET /favicon.ico (90.151.98.146)
+OSError: write error
+[pid: 24847|app: 0|req: 1/2] 90.151.98.146 () {42 vars in 684 bytes} [Wed May 20 14:27:35 2020] GET /favicon.ico => generated 0 bytes in 18 msecs (HTTP/1.1 301) 4 headers in 0 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed May 20 17:27:35 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 24847|app: 0|req: 2/3] 90.151.98.146 () {44 vars in 799 bytes} [Wed May 20 14:28:47 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 49 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[emperor] *** RAGNAROK EVOKED ***
+Wed May 20 17:29:07 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Wed May 20 14:29:07 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Wed May 20 17:29:10 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Wed May 20 17:29:11 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Wed May 20 17:29:22 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Wed May 20 17:29:22 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x561734b20d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x561734b20d10 pid: 25015 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25015)
+Wed May 20 17:29:22 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 25017, cores: 1)
+spawned uWSGI worker 2 (pid: 25018, cores: 1)
+spawned uWSGI worker 3 (pid: 25019, cores: 1)
+spawned uWSGI worker 4 (pid: 25020, cores: 1)
+spawned uWSGI worker 5 (pid: 25021, cores: 1)
+spawned uWSGI worker 6 (pid: 25022, cores: 1)
+spawned uWSGI worker 7 (pid: 25023, cores: 1)
+Wed May 20 17:29:22 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 8 (pid: 25024, cores: 1)
+spawned uWSGI worker 9 (pid: 25025, cores: 1)
+spawned uWSGI worker 10 (pid: 25026, cores: 1)
+[pid: 25017|app: 0|req: 1/1] 90.151.98.146 () {48 vars in 843 bytes} [Wed May 20 14:29:23 2020] GET / => generated 0 bytes in 20 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed May 20 17:29:23 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 25025|app: 0|req: 1/2] 90.151.98.146 () {42 vars in 759 bytes} [Wed May 20 14:29:23 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 16 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed May 20 17:29:23 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 25026|app: 0|req: 1/3] 90.151.98.146 () {42 vars in 761 bytes} [Wed May 20 14:29:23 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 60 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed May 20 17:29:23 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 25025|app: 0|req: 2/4] 90.151.98.146 () {42 vars in 677 bytes} [Wed May 20 14:29:23 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[emperor] *** RAGNAROK EVOKED ***
+Wed May 20 17:32:39 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Wed May 20 14:32:39 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Wed May 20 17:32:42 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Wed May 20 17:32:43 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Wed May 20 17:32:59 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Wed May 20 17:32:59 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5586e8e98d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5586e8e98d10 pid: 25198 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25198)
+Wed May 20 17:33:00 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 25200, cores: 1)
+spawned uWSGI worker 2 (pid: 25201, cores: 1)
+spawned uWSGI worker 3 (pid: 25202, cores: 1)
+spawned uWSGI worker 4 (pid: 25203, cores: 1)
+spawned uWSGI worker 5 (pid: 25204, cores: 1)
+spawned uWSGI worker 6 (pid: 25205, cores: 1)
+spawned uWSGI worker 7 (pid: 25206, cores: 1)
+Wed May 20 17:33:00 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 8 (pid: 25207, cores: 1)
+spawned uWSGI worker 9 (pid: 25208, cores: 1)
+spawned uWSGI worker 10 (pid: 25209, cores: 1)
+[pid: 25209|app: 0|req: 1/1] 90.151.98.146 () {42 vars in 726 bytes} [Wed May 20 14:33:27 2020] GET / => generated 0 bytes in 27 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed May 20 17:33:27 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 25208|app: 0|req: 1/2] 90.151.98.146 () {42 vars in 766 bytes} [Wed May 20 14:33:27 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 17 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed May 20 17:33:27 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 25209|app: 0|req: 2/3] 90.151.98.146 () {42 vars in 768 bytes} [Wed May 20 14:33:27 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 69 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 2/4] 90.151.98.146 () {42 vars in 736 bytes} [Wed May 20 14:33:28 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 25206|app: 0|req: 1/5] 90.151.98.146 () {42 vars in 738 bytes} [Wed May 20 14:33:28 2020] GET /favicon.ico/ => generated 9073 bytes in 59 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed May 20 17:33:28 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 25209|app: 0|req: 3/6] 90.151.98.146 () {44 vars in 799 bytes} [Wed May 20 14:33:29 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 3/7] 90.151.98.146 () {46 vars in 789 bytes} [Wed May 20 14:33:29 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 25200|app: 0|req: 1/8] 90.151.98.146 () {46 vars in 791 bytes} [Wed May 20 14:33:29 2020] GET /favicon.ico/ => generated 9073 bytes in 59 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed May 20 17:33:29 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 25209|app: 0|req: 4/9] 90.151.98.146 () {42 vars in 738 bytes} [Wed May 20 14:33:42 2020] GET /favicon.ico/ => generated 9073 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 5/10] 90.151.98.146 () {42 vars in 733 bytes} [Wed May 20 14:53:14 2020] GET /manager => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 147 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 4/11] 90.151.98.146 () {42 vars in 735 bytes} [Wed May 20 14:53:14 2020] GET /manager/ => generated 9073 bytes in 64 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 6/12] 90.151.98.146 () {42 vars in 719 bytes} [Wed May 20 14:53:47 2020] GET / => generated 0 bytes in 3 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 5/13] 90.151.98.146 () {42 vars in 761 bytes} [Wed May 20 14:53:47 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 7/14] 192.71.44.44 () {34 vars in 417 bytes} [Wed May 20 15:05:17 2020] GET /robots.txt => generated 143 bytes in 39 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 6/15] 192.36.71.133 () {34 vars in 417 bytes} [Wed May 20 15:05:18 2020] GET /humans.txt => generated 143 bytes in 25 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 8/16] 192.36.70.176 () {34 vars in 412 bytes} [Wed May 20 15:05:18 2020] GET /ads.txt => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 7/17] 192.71.30.89 () {34 vars in 397 bytes} [Wed May 20 15:05:18 2020] GET / => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 9/18] 90.151.98.146 () {44 vars in 799 bytes} [Wed May 20 15:25:44 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 25 msecs (HTTP/1.1 200) 4 headers in 137 bytes (2 switches on core 0)
+[pid: 25208|app: 0|req: 8/19] 90.151.98.146 () {46 vars in 789 bytes} [Wed May 20 15:25:46 2020] GET /favicon.ico => generated 0 bytes in 4 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 25207|app: 0|req: 1/20] 90.151.98.146 () {46 vars in 791 bytes} [Wed May 20 15:25:46 2020] GET /favicon.ico/ => generated 9073 bytes in 69 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Wed May 20 18:25:46 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 25209|app: 0|req: 10/21] 172.69.63.59 () {54 vars in 899 bytes} [Wed May 20 15:40:37 2020] GET / => generated 143 bytes in 18 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 11/22] 172.69.63.59 () {56 vars in 966 bytes} [Wed May 20 15:40:37 2020] GET / => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 9/23] 172.69.63.59 () {56 vars in 1020 bytes} [Wed May 20 15:40:37 2020] GET /wp-includes/wlwmanifest.xml => generated 143 bytes in 12 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 12/24] 172.69.63.59 () {56 vars in 993 bytes} [Wed May 20 15:40:38 2020] GET /xmlrpc.php?rsd => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 10/25] 172.69.63.59 () {56 vars in 966 bytes} [Wed May 20 15:40:38 2020] GET / => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 13/26] 172.69.63.59 () {56 vars in 1030 bytes} [Wed May 20 15:40:38 2020] GET /blog/wp-includes/wlwmanifest.xml => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 11/27] 172.69.63.59 () {56 vars in 1028 bytes} [Wed May 20 15:40:38 2020] GET /web/wp-includes/wlwmanifest.xml => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 14/28] 172.69.63.59 () {56 vars in 1040 bytes} [Wed May 20 15:40:39 2020] GET /wordpress/wp-includes/wlwmanifest.xml => generated 143 bytes in 45 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 12/29] 172.69.63.59 () {56 vars in 1036 bytes} [Wed May 20 15:40:39 2020] GET /website/wp-includes/wlwmanifest.xml => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 15/30] 172.69.63.59 () {56 vars in 1026 bytes} [Wed May 20 15:40:39 2020] GET /wp/wp-includes/wlwmanifest.xml => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 13/31] 172.69.63.59 () {56 vars in 1030 bytes} [Wed May 20 15:40:39 2020] GET /news/wp-includes/wlwmanifest.xml => generated 143 bytes in 46 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 16/32] 172.69.63.59 () {56 vars in 1030 bytes} [Wed May 20 15:40:40 2020] GET /2018/wp-includes/wlwmanifest.xml => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 14/33] 172.69.63.59 () {56 vars in 1030 bytes} [Wed May 20 15:40:40 2020] GET /2019/wp-includes/wlwmanifest.xml => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 17/34] 172.69.63.59 () {56 vars in 1030 bytes} [Wed May 20 15:40:40 2020] GET /shop/wp-includes/wlwmanifest.xml => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 15/35] 172.69.63.59 () {56 vars in 1028 bytes} [Wed May 20 15:40:40 2020] GET /wp1/wp-includes/wlwmanifest.xml => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 18/36] 172.69.63.59 () {56 vars in 1030 bytes} [Wed May 20 15:40:40 2020] GET /test/wp-includes/wlwmanifest.xml => generated 143 bytes in 17 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 16/37] 172.69.63.59 () {56 vars in 1028 bytes} [Wed May 20 15:40:41 2020] GET /wp2/wp-includes/wlwmanifest.xml => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 19/38] 172.69.63.59 () {56 vars in 1030 bytes} [Wed May 20 15:40:41 2020] GET /site/wp-includes/wlwmanifest.xml => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 17/39] 172.69.63.59 () {56 vars in 1028 bytes} [Wed May 20 15:40:41 2020] GET /cms/wp-includes/wlwmanifest.xml => generated 143 bytes in 17 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 20/40] 172.69.63.59 () {56 vars in 1030 bytes} [Wed May 20 15:40:41 2020] GET /sito/wp-includes/wlwmanifest.xml => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 21/41] 209.126.1.2 () {34 vars in 400 bytes} [Wed May 20 15:53:49 2020] GET / => generated 0 bytes in 3 msecs (HTTP/1.1 302) 5 headers in 179 bytes (2 switches on core 0)
+[pid: 25208|app: 0|req: 18/42] 209.126.1.2 () {34 vars in 440 bytes} [Wed May 20 15:53:49 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 3 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 25207|app: 0|req: 2/43] 209.126.1.2 () {34 vars in 442 bytes} [Wed May 20 15:53:50 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 22/44] 90.151.98.146 () {42 vars in 724 bytes} [Wed May 20 16:04:29 2020] GET / => generated 0 bytes in 3 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 19/45] 90.151.98.146 () {42 vars in 764 bytes} [Wed May 20 16:04:29 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 3 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 25207|app: 0|req: 3/46] 90.151.98.146 () {42 vars in 766 bytes} [Wed May 20 16:04:29 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 23/47] 89.113.127.190 () {40 vars in 752 bytes} [Wed May 20 16:37:52 2020] GET / => generated 0 bytes in 5 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 20/48] 89.113.127.190 () {40 vars in 792 bytes} [Wed May 20 16:37:52 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 4 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 25207|app: 0|req: 4/49] 89.113.127.190 () {40 vars in 794 bytes} [Wed May 20 16:37:52 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 24/50] 89.113.127.190 () {40 vars in 721 bytes} [Wed May 20 16:37:54 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 25206|app: 0|req: 2/51] 89.113.127.190 () {40 vars in 723 bytes} [Wed May 20 16:37:54 2020] GET /favicon.ico/ => generated 9073 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 137 bytes (2 switches on core 0)
+[pid: 25209|app: 0|req: 25/52] 71.6.232.4 () {34 vars in 484 bytes} [Wed May 20 16:49:37 2020] GET / => generated 0 bytes in 3 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 26/53] 188.114.111.45 () {52 vars in 767 bytes} [Wed May 20 17:04:41 2020] GET / => generated 143 bytes in 18 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 21/54] 188.114.111.45 () {52 vars in 799 bytes} [Wed May 20 17:04:46 2020] GET /cgi-bin/test-cgi => generated 143 bytes in 18 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 27/55] 188.114.111.129 () {52 vars in 804 bytes} [Wed May 20 17:04:50 2020] GET /horde/imp/test.php => generated 143 bytes in 21 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 22/56] 188.114.111.129 () {52 vars in 805 bytes} [Wed May 20 17:04:55 2020] GET /login?from=0.000000 => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 28/57] 188.114.111.9 () {52 vars in 822 bytes} [Wed May 20 17:05:00 2020] GET /phpMyAdmin/scripts/setup.php => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 23/58] 188.114.111.9 () {52 vars in 822 bytes} [Wed May 20 17:05:06 2020] GET /phpmyadmin/scripts/setup.php => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 29/59] 5.39.87.36 () {34 vars in 473 bytes} [Wed May 20 17:55:56 2020] GET /wp-login.php => generated 0 bytes in 6 msecs (HTTP/1.1 301) 4 headers in 152 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 24/60] 5.39.87.36 () {36 vars in 523 bytes} [Wed May 20 17:55:56 2020] GET /wp-login.php/ => generated 9073 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 30/61] 159.65.219.250 () {34 vars in 481 bytes} [Wed May 20 18:06:10 2020] GET /wp-login.php => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 31/62] 162.243.144.19 () {34 vars in 422 bytes} [Wed May 20 18:08:55 2020] GET /portal/redlion => generated 179 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 32/63] 173.245.54.119 () {50 vars in 775 bytes} [Wed May 20 18:16:07 2020] GET /wp-login.php => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 33/64] 23.108.72.18 () {40 vars in 587 bytes} [Wed May 20 19:24:47 2020] GET / => generated 0 bytes in 8 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 25/65] 23.108.72.18 () {40 vars in 627 bytes} [Wed May 20 19:24:47 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 5 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 25207|app: 0|req: 5/66] 23.108.72.18 () {40 vars in 629 bytes} [Wed May 20 19:24:48 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 34/67] 23.108.72.18 () {42 vars in 676 bytes} [Wed May 20 19:24:58 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 26/68] 23.108.72.18 () {42 vars in 678 bytes} [Wed May 20 19:24:58 2020] GET /favicon.ico/ => generated 9073 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 35/69] 138.197.212.58 () {30 vars in 376 bytes} [Wed May 20 19:49:31 2020] GET / => generated 0 bytes in 7 msecs (HTTP/1.0 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 36/70] 36.66.154.143 () {32 vars in 463 bytes} [Wed May 20 21:01:22 2020] GET / => generated 0 bytes in 7 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 37/71] 109.104.145.162 () {32 vars in 466 bytes} [Wed May 20 21:11:44 2020] GET / => generated 0 bytes in 3 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 38/72] 209.188.96.253 () {32 vars in 464 bytes} [Wed May 20 21:58:40 2020] GET / => generated 0 bytes in 8 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 39/73] 128.14.134.134 () {34 vars in 565 bytes} [Wed May 20 22:15:43 2020] GET /Telerik.Web.UI.WebResource.axd?type=rau => generated 0 bytes in 6 msecs (HTTP/1.1 301) 4 headers in 179 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 27/74] 128.14.134.134 () {36 vars in 644 bytes} [Wed May 20 22:15:43 2020] GET /Telerik.Web.UI.WebResource.axd/?type=rau => generated 9073 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 40/75] 208.80.194.41 () {32 vars in 436 bytes} [Wed May 20 22:38:02 2020] GET / => generated 0 bytes in 7 msecs (HTTP/1.0 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 28/76] 208.80.194.41 () {32 vars in 476 bytes} [Wed May 20 22:38:03 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 6 msecs (HTTP/1.0 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 41/77] 208.80.194.41 () {32 vars in 478 bytes} [Wed May 20 22:38:03 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 24 msecs (HTTP/1.0 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 42/78] 51.77.124.86 () {30 vars in 374 bytes} [Wed May 20 22:38:23 2020] GET / => generated 0 bytes in 2 msecs (HTTP/1.0 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 43/79] 156.96.156.39 () {26 vars in 301 bytes} [Wed May 20 23:33:41 2020] HEAD /robots.txt => generated 0 bytes in 9 msecs (HTTP/1.0 301) 4 headers in 150 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 44/80] 162.243.143.100 () {34 vars in 395 bytes} [Thu May 21 01:22:40 2020] GET / => generated 0 bytes in 7 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 45/81] 193.42.99.162 () {26 vars in 301 bytes} [Thu May 21 01:54:22 2020] HEAD /robots.txt => generated 0 bytes in 6 msecs (HTTP/1.0 301) 4 headers in 150 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 46/82] 193.42.99.162 () {26 vars in 301 bytes} [Thu May 21 02:54:44 2020] HEAD /robots.txt => generated 0 bytes in 6 msecs (HTTP/1.0 301) 4 headers in 150 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 47/83] 80.82.78.104 () {32 vars in 368 bytes} [Thu May 21 03:08:45 2020] GET / => generated 143 bytes in 21 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 48/84] 173.245.54.57 () {52 vars in 772 bytes} [Thu May 21 03:18:28 2020] GET / => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 29/85] 172.69.63.179 () {52 vars in 804 bytes} [Thu May 21 03:18:28 2020] GET /cgi-bin/test-cgi => generated 143 bytes in 20 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 49/86] 172.69.63.247 () {52 vars in 808 bytes} [Thu May 21 03:18:29 2020] GET /horde/imp/test.php => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 30/87] 173.245.54.159 () {52 vars in 810 bytes} [Thu May 21 03:18:29 2020] GET /login?from=0.000000 => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 50/88] 173.245.54.181 () {52 vars in 829 bytes} [Thu May 21 03:18:29 2020] GET /phpMyAdmin/scripts/setup.php => generated 143 bytes in 15 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 31/89] 172.69.63.59 () {52 vars in 827 bytes} [Thu May 21 03:18:30 2020] GET /phpmyadmin/scripts/setup.php => generated 143 bytes in 17 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 51/90] 52.168.139.229 () {26 vars in 302 bytes} [Thu May 21 03:19:07 2020] HEAD /robots.txt => generated 0 bytes in 2 msecs (HTTP/1.0 301) 4 headers in 150 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 52/91] 137.135.86.214 () {26 vars in 302 bytes} [Thu May 21 04:55:21 2020] HEAD /robots.txt => generated 0 bytes in 15 msecs (HTTP/1.0 301) 4 headers in 150 bytes (2 switches on core 0)
+[pid: 25209|app: 0|req: 53/92] 64.228.163.80 () {30 vars in 436 bytes} [Thu May 21 07:08:45 2020] GET / => generated 0 bytes in 6 msecs (HTTP/1.1 302) 5 headers in 179 bytes (2 switches on core 0)
+[pid: 25209|app: 0|req: 54/93] 117.157.15.27 () {34 vars in 500 bytes} [Thu May 21 08:21:19 2020] GET /TP/public/index.php => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 55/94] 2.179.204.103 () {32 vars in 470 bytes} [Thu May 21 08:21:59 2020] GET / => generated 0 bytes in 6 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 56/95] 34.219.123.89 () {32 vars in 370 bytes} [Thu May 21 09:18:07 2020] GET / => generated 0 bytes in 11 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 57/96] 5.233.123.247 () {32 vars in 470 bytes} [Thu May 21 09:19:05 2020] GET / => generated 0 bytes in 2 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 58/97] 162.158.187.247 () {52 vars in 801 bytes} [Thu May 21 09:39:52 2020] GET /robots.txt => generated 143 bytes in 67 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 32/98] 162.158.187.141 () {54 vars in 985 bytes} [Thu May 21 09:39:52 2020] GET / => generated 143 bytes in 24 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 59/99] 162.243.139.32 () {34 vars in 406 bytes} [Thu May 21 09:58:11 2020] GET /hudson => generated 0 bytes in 3 msecs (HTTP/1.1 301) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 60/100] 90.151.98.146 () {44 vars in 752 bytes} [Thu May 21 10:37:04 2020] GET / => generated 0 bytes in 2 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 33/101] 90.151.98.146 () {42 vars in 761 bytes} [Thu May 21 10:37:04 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 3 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 25207|app: 0|req: 6/102] 90.151.98.146 () {42 vars in 763 bytes} [Thu May 21 10:37:04 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 120 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+Thu May 21 10:38:01 2020 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ (ip 90.151.98.146) !!!
+Thu May 21 10:38:01 2020 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ (90.151.98.146)
+OSError: write error
+[pid: 25209|app: 0|req: 61/103] 90.151.98.146 () {42 vars in 761 bytes} [Thu May 21 10:38:01 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 0 bytes in 26 msecs (HTTP/1.1 200) 4 headers in 0 bytes (0 switches on core 0)
+[pid: 25208|app: 0|req: 34/104] 90.151.98.146 () {40 vars in 646 bytes} [Thu May 21 10:38:02 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 25200|app: 0|req: 2/105] 90.151.98.146 () {40 vars in 648 bytes} [Thu May 21 10:38:02 2020] GET /favicon.ico/ => generated 9073 bytes in 32 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 62/106] 90.151.98.146 () {46 vars in 696 bytes} [Thu May 21 10:41:58 2020] GET / => generated 0 bytes in 2 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 35/107] 90.151.98.146 () {46 vars in 736 bytes} [Thu May 21 10:41:58 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 25207|app: 0|req: 7/108] 90.151.98.146 () {46 vars in 738 bytes} [Thu May 21 10:41:58 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 63/109] 90.151.98.146 () {44 vars in 623 bytes} [Thu May 21 10:41:58 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 25206|app: 0|req: 3/110] 90.151.98.146 () {44 vars in 625 bytes} [Thu May 21 10:41:59 2020] GET /favicon.ico/ => generated 9073 bytes in 31 msecs (HTTP/1.1 200) 4 headers in 137 bytes (2 switches on core 0)
+[pid: 25209|app: 0|req: 64/111] 185.136.150.9 () {32 vars in 464 bytes} [Thu May 21 11:03:49 2020] GET / => generated 0 bytes in 3 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 65/112] 222.80.41.16 () {38 vars in 500 bytes} [Thu May 21 11:15:57 2020] POST /GponForm/diag_Form?images/ => generated 143 bytes in 16 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+Thu May 21 11:21:02 2020 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /favicon.ico (ip 90.151.98.146) !!!
+Thu May 21 11:21:02 2020 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during GET /favicon.ico (90.151.98.146)
+OSError: write error
+[pid: 25209|app: 0|req: 66/113] 90.151.98.146 () {40 vars in 646 bytes} [Thu May 21 11:21:02 2020] GET /favicon.ico => generated 0 bytes in 20 msecs (HTTP/1.1 301) 4 headers in 0 bytes (0 switches on core 0)
+[pid: 25209|app: 0|req: 67/114] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 11:26:02 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 60 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 68/115] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 11:27:26 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 36/116] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 11:27:46 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 28 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 69/117] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 11:27:47 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 37/118] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 11:28:06 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 70/119] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 11:28:07 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 38/120] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 11:28:12 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 29 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 71/121] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 11:28:13 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 39/122] 90.151.98.146 () {46 vars in 814 bytes} [Thu May 21 11:28:16 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 28 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 72/123] 90.151.98.146 () {44 vars in 699 bytes} [Thu May 21 11:28:19 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 25200|app: 0|req: 3/124] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 11:28:19 2020] GET /favicon.ico/ => generated 9073 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 73/125] 90.151.98.146 () {42 vars in 721 bytes} [Thu May 21 11:28:33 2020] GET / => generated 0 bytes in 2 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 40/126] 90.151.98.146 () {42 vars in 761 bytes} [Thu May 21 11:28:33 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 25207|app: 0|req: 8/127] 90.151.98.146 () {42 vars in 763 bytes} [Thu May 21 11:28:33 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 74/128] 90.151.98.146 () {40 vars in 648 bytes} [Thu May 21 11:28:34 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 25203|app: 0|req: 1/129] 90.151.98.146 () {44 vars in 794 bytes} [Thu May 21 11:28:36 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 114 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 14:28:36 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 25209|app: 0|req: 75/130] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 11:33:10 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 26 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 41/131] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 11:33:11 2020] GET /favicon.ico => generated 0 bytes in 6 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 25209|app: 0|req: 76/132] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 11:33:11 2020] GET /favicon.ico/ => generated 9073 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 42/133] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 11:33:13 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 137 bytes (2 switches on core 0)
+[pid: 25209|app: 0|req: 77/134] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 11:33:14 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 25204|app: 0|req: 1/135] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 11:33:14 2020] GET /favicon.ico/ => generated 9086 bytes in 83 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 14:33:14 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 25209|app: 0|req: 78/136] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 11:33:20 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 43/137] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 11:33:21 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 25200|app: 0|req: 4/138] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 11:33:21 2020] GET /favicon.ico/ => generated 9073 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 79/139] 90.151.98.146 () {44 vars in 794 bytes} [Thu May 21 11:33:22 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 80/140] 90.151.98.146 () {44 vars in 794 bytes} [Thu May 21 11:37:21 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 81/141] 185.12.124.78 () {40 vars in 564 bytes} [Thu May 21 11:38:47 2020] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 44/142] 185.12.124.78 () {40 vars in 604 bytes} [Thu May 21 11:38:47 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 25207|app: 0|req: 9/143] 185.12.124.78 () {40 vars in 606 bytes} [Thu May 21 11:38:47 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 82/144] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 11:49:59 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 78 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 45/145] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 11:50:00 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 25201|app: 0|req: 1/146] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 11:50:00 2020] GET /favicon.ico/ => generated 9996 bytes in 95 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 14:50:00 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 25209|app: 0|req: 83/147] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 11:50:04 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25208|app: 0|req: 46/148] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 11:50:05 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 25203|app: 0|req: 2/149] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 11:50:05 2020] GET /favicon.ico/ => generated 9073 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 25209|app: 0|req: 84/150] 90.151.98.146 () {44 vars in 794 bytes} [Thu May 21 11:51:05 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9073 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+Thu May 21 11:51:05 2020 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /favicon.ico (ip 90.151.98.146) !!!
+Thu May 21 11:51:05 2020 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during GET /favicon.ico (90.151.98.146)
+OSError: write error
+[pid: 25208|app: 0|req: 47/151] 90.151.98.146 () {42 vars in 679 bytes} [Thu May 21 11:51:05 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 0 bytes (0 switches on core 0)
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 14:51:23 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 11:51:23 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 14:51:26 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 14:51:27 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 14:51:44 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 14:51:44 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d45ccc4d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55d45ccc4d10 pid: 43352 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 43352)
+Thu May 21 14:51:45 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 43354, cores: 1)
+spawned uWSGI worker 2 (pid: 43355, cores: 1)
+spawned uWSGI worker 3 (pid: 43356, cores: 1)
+spawned uWSGI worker 4 (pid: 43357, cores: 1)
+spawned uWSGI worker 5 (pid: 43358, cores: 1)
+spawned uWSGI worker 6 (pid: 43359, cores: 1)
+spawned uWSGI worker 7 (pid: 43360, cores: 1)
+Thu May 21 14:51:45 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 8 (pid: 43361, cores: 1)
+spawned uWSGI worker 9 (pid: 43362, cores: 1)
+spawned uWSGI worker 10 (pid: 43363, cores: 1)
+[pid: 43354|app: 0|req: 1/1] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 11:51:45 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9996 bytes in 89 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 14:51:45 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 43363|app: 0|req: 1/2] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 11:51:46 2020] GET /favicon.ico => generated 0 bytes in 17 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 14:51:46 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 43362|app: 0|req: 1/3] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 11:51:46 2020] GET /favicon.ico/ => generated 9996 bytes in 59 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 14:51:46 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 43363|app: 0|req: 2/4] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 11:56:28 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10006 bytes in 47 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 43362|app: 0|req: 2/5] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 11:56:28 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 43359|app: 0|req: 1/6] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 11:56:28 2020] GET /favicon.ico/ => generated 10006 bytes in 58 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 14:56:28 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 43363|app: 0|req: 3/7] 90.151.98.146 () {40 vars in 738 bytes} [Thu May 21 11:59:11 2020] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 43362|app: 0|req: 3/8] 90.151.98.146 () {40 vars in 778 bytes} [Thu May 21 11:59:12 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 43361|app: 0|req: 1/9] 90.151.98.146 () {40 vars in 780 bytes} [Thu May 21 11:59:12 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10004 bytes in 85 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 14:59:12 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 43363|app: 0|req: 4/10] 90.151.98.146 () {40 vars in 707 bytes} [Thu May 21 11:59:15 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 43362|app: 0|req: 4/11] 90.151.98.146 () {40 vars in 709 bytes} [Thu May 21 11:59:15 2020] GET /favicon.ico/ => generated 9996 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 43363|app: 0|req: 5/12] 90.151.98.146 () {44 vars in 794 bytes} [Thu May 21 12:12:42 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10006 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 43362|app: 0|req: 5/13] 90.151.98.146 () {42 vars in 679 bytes} [Thu May 21 12:12:42 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 43361|app: 0|req: 2/14] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 12:12:44 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10004 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 43363|app: 0|req: 6/15] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 12:12:46 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 43358|app: 0|req: 1/16] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 12:12:46 2020] GET /favicon.ico/ => generated 10022 bytes in 58 msecs (HTTP/1.1 200) 4 headers in 138 bytes (2 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:12:46 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 43363|app: 0|req: 7/17] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 12:12:55 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10006 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 43362|app: 0|req: 6/18] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 12:12:56 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 43359|app: 0|req: 2/19] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 12:12:56 2020] GET /favicon.ico/ => generated 10006 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 43363|app: 0|req: 8/20] 128.14.133.58 () {34 vars in 487 bytes} [Thu May 21 12:14:37 2020] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 43362|app: 0|req: 7/21] 128.14.133.58 () {36 vars in 565 bytes} [Thu May 21 12:14:37 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 43361|app: 0|req: 3/22] 128.14.133.58 () {36 vars in 597 bytes} [Thu May 21 12:14:38 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10004 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 43363|app: 0|req: 9/23] 5.236.216.241 () {32 vars in 463 bytes} [Thu May 21 12:15:10 2020] GET / => generated 0 bytes in 2 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 43363|app: 0|req: 10/24] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 12:15:19 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10006 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 43362|app: 0|req: 8/25] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 12:15:20 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 43359|app: 0|req: 3/26] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 12:15:20 2020] GET /favicon.ico/ => generated 10006 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:15:56 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 12:15:56 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:15:59 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:16:00 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:16:14 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:16:14 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563d276f1d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563d276f1d10 pid: 43893 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 43893)
+Thu May 21 15:16:14 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 43895, cores: 1)
+spawned uWSGI worker 2 (pid: 43896, cores: 1)
+spawned uWSGI worker 3 (pid: 43897, cores: 1)
+spawned uWSGI worker 4 (pid: 43898, cores: 1)
+spawned uWSGI worker 5 (pid: 43899, cores: 1)
+spawned uWSGI worker 6 (pid: 43900, cores: 1)
+spawned uWSGI worker 7 (pid: 43901, cores: 1)
+spawned uWSGI worker 8 (pid: 43902, cores: 1)
+Thu May 21 15:16:14 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 9 (pid: 43903, cores: 1)
+spawned uWSGI worker 10 (pid: 43904, cores: 1)
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:17:35 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 12:17:35 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:17:38 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:17:39 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:17:41 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:17:41 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x555a0d1e5d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x555a0d1e5d10 pid: 43989 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 43989)
+Thu May 21 15:17:42 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 43991, cores: 1)
+spawned uWSGI worker 2 (pid: 43992, cores: 1)
+spawned uWSGI worker 3 (pid: 43993, cores: 1)
+spawned uWSGI worker 4 (pid: 43994, cores: 1)
+spawned uWSGI worker 5 (pid: 43995, cores: 1)
+spawned uWSGI worker 6 (pid: 43996, cores: 1)
+spawned uWSGI worker 7 (pid: 43997, cores: 1)
+spawned uWSGI worker 8 (pid: 43998, cores: 1)
+spawned uWSGI worker 9 (pid: 43999, cores: 1)
+Thu May 21 15:17:42 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 10 (pid: 44000, cores: 1)
+[pid: 43996|app: 0|req: 1/1] 90.151.98.146 () {44 vars in 794 bytes} [Thu May 21 12:17:43 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10035 bytes in 99 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:17:43 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+Thu May 21 12:17:44 2020 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /favicon.ico (ip 90.151.98.146) !!!
+Thu May 21 12:17:44 2020 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during GET /favicon.ico (90.151.98.146)
+OSError: write error
+[pid: 44000|app: 0|req: 1/2] 90.151.98.146 () {42 vars in 679 bytes} [Thu May 21 12:17:44 2020] GET /favicon.ico => generated 0 bytes in 17 msecs (HTTP/1.1 301) 4 headers in 0 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:17:44 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:18:11 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 12:18:11 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 9 buried after 1 seconds
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:18:14 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:18:15 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:18:17 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:18:17 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ecf4ec2d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ecf4ec2d10 pid: 44052 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 44052)
+Thu May 21 15:18:17 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 44054, cores: 1)
+spawned uWSGI worker 2 (pid: 44055, cores: 1)
+spawned uWSGI worker 3 (pid: 44056, cores: 1)
+spawned uWSGI worker 4 (pid: 44057, cores: 1)
+spawned uWSGI worker 5 (pid: 44058, cores: 1)
+spawned uWSGI worker 6 (pid: 44059, cores: 1)
+spawned uWSGI worker 7 (pid: 44060, cores: 1)
+spawned uWSGI worker 8 (pid: 44061, cores: 1)
+spawned uWSGI worker 9 (pid: 44062, cores: 1)
+Thu May 21 15:18:17 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 10 (pid: 44063, cores: 1)
+[pid: 44055|app: 0|req: 1/1] 90.151.98.146 () {44 vars in 794 bytes} [Thu May 21 12:18:17 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10022 bytes in 54 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:18:18 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+Thu May 21 12:18:18 2020 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /favicon.ico (ip 90.151.98.146) !!!
+Thu May 21 12:18:18 2020 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during GET /favicon.ico (90.151.98.146)
+OSError: write error
+[pid: 44063|app: 0|req: 1/2] 90.151.98.146 () {42 vars in 679 bytes} [Thu May 21 12:18:18 2020] GET /favicon.ico => generated 0 bytes in 27 msecs (HTTP/1.1 301) 4 headers in 0 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:18:18 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+Thu May 21 12:18:18 2020 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /favicon.ico/ (ip 90.151.98.146) !!!
+Thu May 21 12:18:18 2020 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /favicon.ico/ (90.151.98.146)
+OSError: write error
+[pid: 44054|app: 0|req: 1/3] 90.151.98.146 () {42 vars in 681 bytes} [Thu May 21 12:18:18 2020] GET /favicon.ico/ => generated 0 bytes in 56 msecs (HTTP/1.1 200) 4 headers in 0 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:18:18 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44063|app: 0|req: 2/4] 46.62.82.212 () {44 vars in 810 bytes} [Thu May 21 12:34:22 2020] GET / => generated 0 bytes in 36 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 44054|app: 0|req: 2/5] 46.62.82.212 () {44 vars in 850 bytes} [Thu May 21 12:34:22 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 4 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+[pid: 44062|app: 0|req: 1/6] 46.62.82.212 () {44 vars in 852 bytes} [Thu May 21 12:34:22 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 145 bytes in 497 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:34:23 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44063|app: 0|req: 3/7] 46.62.82.212 () {42 vars in 783 bytes} [Thu May 21 12:34:23 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 44058|app: 0|req: 1/8] 46.62.82.212 () {42 vars in 785 bytes} [Thu May 21 12:34:23 2020] GET /favicon.ico/ => generated 145 bytes in 87 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:34:23 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44063|app: 0|req: 4/9] 46.62.82.212 () {44 vars in 810 bytes} [Thu May 21 12:34:28 2020] GET / => generated 0 bytes in 2 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 44062|app: 0|req: 2/10] 46.62.82.212 () {44 vars in 852 bytes} [Thu May 21 12:34:28 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 145 bytes in 39 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 0)
+[pid: 44063|app: 0|req: 5/11] 46.62.82.212 () {42 vars in 785 bytes} [Thu May 21 12:34:29 2020] GET /favicon.ico/ => generated 145 bytes in 74 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 0)
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:35:12 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 12:35:12 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:35:15 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:35:16 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:35:20 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:35:20 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5594bfd5fd10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x5594bfd5fd10 pid: 44415 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 44415)
+Thu May 21 15:35:24 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 44419, cores: 1)
+spawned uWSGI worker 2 (pid: 44420, cores: 1)
+spawned uWSGI worker 3 (pid: 44421, cores: 1)
+spawned uWSGI worker 4 (pid: 44422, cores: 1)
+spawned uWSGI worker 5 (pid: 44423, cores: 1)
+spawned uWSGI worker 6 (pid: 44424, cores: 1)
+Thu May 21 15:35:24 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 7 (pid: 44425, cores: 1)
+spawned uWSGI worker 8 (pid: 44426, cores: 1)
+spawned uWSGI worker 9 (pid: 44427, cores: 1)
+spawned uWSGI worker 10 (pid: 44428, cores: 1)
+[pid: 44420|app: 0|req: 1/1] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 12:35:24 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 5783 bytes in 940 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:35:25 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44428|app: 0|req: 1/2] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 12:35:26 2020] GET /favicon.ico => generated 0 bytes in 16 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:35:26 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44427|app: 0|req: 1/3] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 12:35:26 2020] GET /favicon.ico/ => generated 5783 bytes in 57 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:35:26 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:37:28 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 12:37:28 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:37:31 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:37:32 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:37:35 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:37:35 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56470cfbed10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56470cfbed10 pid: 44516 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 44516)
+Thu May 21 15:37:36 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 44518, cores: 1)
+spawned uWSGI worker 2 (pid: 44519, cores: 1)
+spawned uWSGI worker 3 (pid: 44520, cores: 1)
+spawned uWSGI worker 4 (pid: 44521, cores: 1)
+spawned uWSGI worker 5 (pid: 44522, cores: 1)
+spawned uWSGI worker 6 (pid: 44523, cores: 1)
+Thu May 21 15:37:36 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 7 (pid: 44524, cores: 1)
+spawned uWSGI worker 8 (pid: 44525, cores: 1)
+spawned uWSGI worker 9 (pid: 44526, cores: 1)
+spawned uWSGI worker 10 (pid: 44527, cores: 1)
+[pid: 44518|app: 0|req: 1/1] 90.151.98.146 () {46 vars in 816 bytes} [Thu May 21 12:37:38 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 5782 bytes in 186 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:37:38 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44527|app: 0|req: 1/2] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 12:37:40 2020] GET /favicon.ico => generated 0 bytes in 16 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:37:40 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44526|app: 0|req: 1/3] 90.151.98.146 () {44 vars in 703 bytes} [Thu May 21 12:37:40 2020] GET /favicon.ico/ => generated 5782 bytes in 58 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:37:40 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:38:46 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 12:38:46 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:38:49 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:38:50 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:38:53 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:38:53 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c890178d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c890178d10 pid: 44589 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 44589)
+Thu May 21 15:38:53 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 44593, cores: 1)
+spawned uWSGI worker 2 (pid: 44594, cores: 1)
+spawned uWSGI worker 3 (pid: 44595, cores: 1)
+spawned uWSGI worker 4 (pid: 44596, cores: 1)
+spawned uWSGI worker 5 (pid: 44597, cores: 1)
+spawned uWSGI worker 6 (pid: 44598, cores: 1)
+spawned uWSGI worker 7 (pid: 44599, cores: 1)
+spawned uWSGI worker 8 (pid: 44600, cores: 1)
+spawned uWSGI worker 9 (pid: 44601, cores: 1)
+Thu May 21 15:38:53 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 10 (pid: 44602, cores: 1)
+[pid: 44594|app: 0|req: 1/1] 90.151.98.146 () {44 vars in 794 bytes} [Thu May 21 12:38:53 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 9914 bytes in 93 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:38:54 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44602|app: 0|req: 1/2] 90.151.98.146 () {42 vars in 733 bytes} [Thu May 21 12:39:45 2020] GET /admin/ => generated 0 bytes in 50 msecs (HTTP/1.1 302) 8 headers in 301 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:39:45 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44601|app: 0|req: 1/3] 90.151.98.146 () {42 vars in 770 bytes} [Thu May 21 12:39:45 2020] GET /admin/login/?next=/admin/ => generated 1999 bytes in 207 msecs (HTTP/1.1 200) 8 headers in 431 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:39:46 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44602|app: 0|req: 2/4] 90.151.98.146 () {50 vars in 990 bytes} [Thu May 21 12:40:09 2020] POST /admin/login/?next=/admin/ => generated 0 bytes in 409 msecs (HTTP/1.1 302) 10 headers in 595 bytes (1 switches on core 0)
+[pid: 44601|app: 0|req: 2/5] 90.151.98.146 () {44 vars in 842 bytes} [Thu May 21 12:40:09 2020] GET /admin/ => generated 4087 bytes in 99 msecs (HTTP/1.1 200) 7 headers in 263 bytes (1 switches on core 0)
+[pid: 44602|app: 0|req: 3/6] 90.151.98.146 () {44 vars in 857 bytes} [Thu May 21 12:40:14 2020] GET /admin/agents/agent/add/ => generated 8387 bytes in 146 msecs (HTTP/1.1 200) 8 headers in 431 bytes (1 switches on core 0)
+[pid: 44601|app: 0|req: 3/7] 90.151.98.146 () {42 vars in 748 bytes} [Thu May 21 12:40:14 2020] GET /admin/jsi18n/ => generated 14909 bytes in 47 msecs (HTTP/1.1 200) 5 headers in 160 bytes (1 switches on core 0)
+[pid: 44602|app: 0|req: 4/8] 90.151.98.146 () {50 vars in 1141 bytes} [Thu May 21 12:40:58 2020] POST /admin/agents/agent/add/ => generated 0 bytes in 409 msecs (HTTP/1.1 302) 9 headers in 657 bytes (3 switches on core 0)
+[pid: 44601|app: 0|req: 4/9] 90.151.98.146 () {44 vars in 1183 bytes} [Thu May 21 12:40:58 2020] GET /admin/agents/agent/ => generated 4942 bytes in 120 msecs (HTTP/1.1 200) 9 headers in 515 bytes (1 switches on core 0)
+[pid: 44602|app: 0|req: 5/10] 90.151.98.146 () {42 vars in 744 bytes} [Thu May 21 12:40:59 2020] GET /admin/jsi18n/ => generated 14909 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 160 bytes (1 switches on core 0)
+[pid: 44601|app: 0|req: 5/11] 90.151.98.146 () {44 vars in 880 bytes} [Thu May 21 12:41:00 2020] GET /admin/agents/agent/1/change/ => generated 9098 bytes in 55 msecs (HTTP/1.1 200) 8 headers in 431 bytes (1 switches on core 0)
+[pid: 44602|app: 0|req: 6/12] 90.151.98.146 () {42 vars in 753 bytes} [Thu May 21 12:41:00 2020] GET /admin/jsi18n/ => generated 14909 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 160 bytes (1 switches on core 0)
+[pid: 44601|app: 0|req: 6/13] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 12:41:06 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10427 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 44602|app: 0|req: 7/14] 90.151.98.146 () {42 vars in 725 bytes} [Thu May 21 12:41:06 2020] GET /favicon.ico/ => generated 10018 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 44601|app: 0|req: 7/15] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 12:41:12 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10427 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 44602|app: 0|req: 8/16] 90.151.98.146 () {42 vars in 723 bytes} [Thu May 21 12:41:12 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 44598|app: 0|req: 1/17] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 12:41:20 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10427 bytes in 62 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:41:20 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44602|app: 0|req: 9/18] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 12:46:01 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10427 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 44601|app: 0|req: 8/19] 90.151.98.146 () {42 vars in 723 bytes} [Thu May 21 12:46:02 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:46:18 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 12:46:18 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:46:21 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:46:22 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:46:24 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:46:24 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ba97940d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ba97940d10 pid: 44751 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 44751)
+Thu May 21 15:46:25 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 44753, cores: 1)
+spawned uWSGI worker 2 (pid: 44754, cores: 1)
+spawned uWSGI worker 3 (pid: 44755, cores: 1)
+spawned uWSGI worker 4 (pid: 44756, cores: 1)
+spawned uWSGI worker 5 (pid: 44757, cores: 1)
+spawned uWSGI worker 6 (pid: 44758, cores: 1)
+spawned uWSGI worker 7 (pid: 44759, cores: 1)
+spawned uWSGI worker 8 (pid: 44760, cores: 1)
+spawned uWSGI worker 9 (pid: 44761, cores: 1)
+Thu May 21 15:46:25 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 10 (pid: 44762, cores: 1)
+[pid: 44754|app: 0|req: 1/1] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 12:46:25 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 145 bytes in 155 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:46:25 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 44762|app: 0|req: 1/2] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 12:46:27 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 145 bytes in 82 msecs (HTTP/1.1 500) 5 headers in 154 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:46:27 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:46:45 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 12:46:45 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:46:48 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:46:49 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:46:51 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:46:51 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55bb5117dd10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./prowork/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/django/venv/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/django/venv/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/django/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 76, in __getattr__
+    self._setup(name)
+  File "/home/django/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 63, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/django/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 142, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "./prowork/settings.py", line 28, in <module>
+    DEBUG = Trues
+NameError: name 'Trues' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 44817)
+Thu May 21 15:46:52 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 44819, cores: 1)
+spawned uWSGI worker 2 (pid: 44820, cores: 1)
+spawned uWSGI worker 3 (pid: 44821, cores: 1)
+spawned uWSGI worker 4 (pid: 44822, cores: 1)
+spawned uWSGI worker 5 (pid: 44823, cores: 1)
+spawned uWSGI worker 6 (pid: 44824, cores: 1)
+spawned uWSGI worker 7 (pid: 44825, cores: 1)
+spawned uWSGI worker 8 (pid: 44826, cores: 1)
+spawned uWSGI worker 9 (pid: 44827, cores: 1)
+spawned uWSGI worker 10 (pid: 44828, cores: 1)
+Thu May 21 15:46:52 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+--- no python application found, check your startup logs for errors ---
+[pid: 44822|app: -1|req: -1/1] 90.151.98.146 () {46 vars in 860 bytes} [Thu May 21 15:46:53 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:46:53 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44823|app: -1|req: -1/2] 90.151.98.146 () {44 vars in 745 bytes} [Thu May 21 15:46:53 2020] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:46:53 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44821|app: -1|req: -1/3] 90.151.98.146 () {46 vars in 860 bytes} [Thu May 21 15:46:56 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:46:56 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44820|app: -1|req: -1/4] 90.151.98.146 () {44 vars in 745 bytes} [Thu May 21 15:46:56 2020] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:46:56 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44824|app: -1|req: -1/5] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 15:46:57 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:46:57 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44825|app: -1|req: -1/6] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 15:46:58 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:46:58 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44822|app: -1|req: -1/7] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 15:46:58 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 44821|app: -1|req: -1/8] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 15:46:59 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 44823|app: -1|req: -1/9] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 15:47:00 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 44819|app: -1|req: -1/10] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 15:47:01 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:47:01 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44827|app: -1|req: -1/11] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 15:47:01 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:47:01 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44828|app: -1|req: -1/12] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 15:47:01 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:47:01 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44819|app: -1|req: -1/13] 90.151.98.146 () {44 vars in 838 bytes} [Thu May 21 15:47:02 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 44828|app: -1|req: -1/14] 90.151.98.146 () {42 vars in 765 bytes} [Thu May 21 15:47:05 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:47:36 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:47:36 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:47:38 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:47:39 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:47:41 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:47:41 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d69d81cd10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./prowork/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/django/venv/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/django/venv/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/django/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 76, in __getattr__
+    self._setup(name)
+  File "/home/django/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 63, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/django/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 142, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "./prowork/settings.py", line 28, in <module>
+    DEBUG = Trues
+NameError: name 'Trues' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 44924)
+Thu May 21 15:47:41 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 44926, cores: 1)
+spawned uWSGI worker 2 (pid: 44927, cores: 1)
+spawned uWSGI worker 3 (pid: 44928, cores: 1)
+spawned uWSGI worker 4 (pid: 44929, cores: 1)
+spawned uWSGI worker 5 (pid: 44930, cores: 1)
+spawned uWSGI worker 6 (pid: 44931, cores: 1)
+spawned uWSGI worker 7 (pid: 44932, cores: 1)
+spawned uWSGI worker 8 (pid: 44933, cores: 1)
+spawned uWSGI worker 9 (pid: 44934, cores: 1)
+spawned uWSGI worker 10 (pid: 44935, cores: 1)
+Thu May 21 15:47:41 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+--- no python application found, check your startup logs for errors ---
+[pid: 44927|app: -1|req: -1/1] 90.151.98.146 () {44 vars in 796 bytes} [Thu May 21 15:47:43 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:47:43 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44928|app: -1|req: -1/2] 90.151.98.146 () {40 vars in 628 bytes} [Thu May 21 15:47:48 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:47:48 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44929|app: -1|req: -1/3] 90.151.98.146 () {38 vars in 555 bytes} [Thu May 21 15:47:48 2020] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:47:48 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44930|app: -1|req: -1/4] 90.151.98.146 () {42 vars in 659 bytes} [Thu May 21 15:47:50 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:47:50 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44926|app: -1|req: -1/5] 90.151.98.146 () {42 vars in 659 bytes} [Thu May 21 15:48:08 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:48:08 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:48:12 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:48:12 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:48:14 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:48:15 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:48:17 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:48:17 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55cfc73b7d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./prowork/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/django/venv/lib/python3.8/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/django/venv/lib/python3.8/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/django/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 76, in __getattr__
+    self._setup(name)
+  File "/home/django/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 63, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/django/venv/lib/python3.8/site-packages/django/conf/__init__.py", line 142, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "./prowork/settings.py", line 28, in <module>
+    DEBUG = Trues
+NameError: name 'Trues' is not defined
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 44991)
+Thu May 21 15:48:17 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 44993, cores: 1)
+spawned uWSGI worker 2 (pid: 44994, cores: 1)
+spawned uWSGI worker 3 (pid: 44995, cores: 1)
+spawned uWSGI worker 4 (pid: 44996, cores: 1)
+spawned uWSGI worker 5 (pid: 44997, cores: 1)
+spawned uWSGI worker 6 (pid: 44998, cores: 1)
+spawned uWSGI worker 7 (pid: 44999, cores: 1)
+spawned uWSGI worker 8 (pid: 45000, cores: 1)
+spawned uWSGI worker 9 (pid: 45001, cores: 1)
+spawned uWSGI worker 10 (pid: 45002, cores: 1)
+Thu May 21 15:48:17 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+--- no python application found, check your startup logs for errors ---
+[pid: 44995|app: -1|req: -1/1] 90.151.98.146 () {44 vars in 681 bytes} [Thu May 21 15:48:19 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:48:19 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44994|app: -1|req: -1/2] 90.151.98.146 () {42 vars in 608 bytes} [Thu May 21 15:48:19 2020] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:48:19 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44996|app: -1|req: -1/3] 90.151.98.146 () {44 vars in 681 bytes} [Thu May 21 15:48:19 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:48:19 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44997|app: -1|req: -1/4] 90.151.98.146 () {42 vars in 608 bytes} [Thu May 21 15:48:20 2020] GET /favicon.ico => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:48:20 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+--- no python application found, check your startup logs for errors ---
+[pid: 44993|app: -1|req: -1/5] 31.173.82.65 () {42 vars in 723 bytes} [Thu May 21 15:48:33 2020] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:48:33 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:51:26 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:51:26 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+worker 9 buried after 1 seconds
+worker 10 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:51:28 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:51:29 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:51:31 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:51:31 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x558e8f36cd10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558e8f36cd10 pid: 45134 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 45134)
+Thu May 21 15:51:31 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 45136, cores: 1)
+spawned uWSGI worker 2 (pid: 45137, cores: 1)
+spawned uWSGI worker 3 (pid: 45138, cores: 1)
+spawned uWSGI worker 4 (pid: 45139, cores: 1)
+spawned uWSGI worker 5 (pid: 45140, cores: 1)
+spawned uWSGI worker 6 (pid: 45141, cores: 1)
+spawned uWSGI worker 7 (pid: 45142, cores: 1)
+spawned uWSGI worker 8 (pid: 45143, cores: 1)
+Thu May 21 15:51:31 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 9 (pid: 45144, cores: 1)
+spawned uWSGI worker 10 (pid: 45145, cores: 1)
+[pid: 45136|app: 0|req: 1/1] 90.151.98.146 () {42 vars in 719 bytes} [Thu May 21 12:51:37 2020] GET / => generated 0 bytes in 20 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:51:37 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45145|app: 0|req: 1/2] 90.151.98.146 () {42 vars in 759 bytes} [Thu May 21 12:51:37 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA => generated 0 bytes in 16 msecs (HTTP/1.1 301) 4 headers in 170 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:51:37 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45144|app: 0|req: 1/3] 90.151.98.146 () {42 vars in 761 bytes} [Thu May 21 12:51:37 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10490 bytes in 58 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:51:37 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45145|app: 0|req: 2/4] 90.151.98.146 () {40 vars in 646 bytes} [Thu May 21 12:51:38 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+Thu May 21 12:51:38 2020 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /favicon.ico/ (ip 90.151.98.146) !!!
+Thu May 21 12:51:38 2020 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /favicon.ico/ (90.151.98.146)
+OSError: write error
+[pid: 45143|app: 0|req: 1/5] 90.151.98.146 () {40 vars in 648 bytes} [Thu May 21 12:51:38 2020] GET /favicon.ico/ => generated 0 bytes in 59 msecs (HTTP/1.1 200) 4 headers in 0 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:51:38 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:52:00 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 12:52:00 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:52:03 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:52:04 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:52:07 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:52:07 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55b78d058d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b78d058d10 pid: 45198 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 45198)
+Thu May 21 15:52:07 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 45200, cores: 1)
+spawned uWSGI worker 2 (pid: 45201, cores: 1)
+spawned uWSGI worker 3 (pid: 45202, cores: 1)
+spawned uWSGI worker 4 (pid: 45203, cores: 1)
+spawned uWSGI worker 5 (pid: 45204, cores: 1)
+spawned uWSGI worker 6 (pid: 45205, cores: 1)
+spawned uWSGI worker 7 (pid: 45206, cores: 1)
+spawned uWSGI worker 8 (pid: 45207, cores: 1)
+spawned uWSGI worker 9 (pid: 45208, cores: 1)
+Thu May 21 15:52:07 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 10 (pid: 45209, cores: 1)
+[pid: 45202|app: 0|req: 1/1] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 12:52:07 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10484 bytes in 72 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:52:07 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 15:53:10 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 12:53:10 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 15:53:13 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 15:53:14 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:53:16 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 15:53:16 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55e564b87d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55e564b87d10 pid: 45269 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 45269)
+Thu May 21 15:53:17 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 45271, cores: 1)
+spawned uWSGI worker 2 (pid: 45272, cores: 1)
+spawned uWSGI worker 3 (pid: 45273, cores: 1)
+spawned uWSGI worker 4 (pid: 45274, cores: 1)
+spawned uWSGI worker 5 (pid: 45275, cores: 1)
+spawned uWSGI worker 6 (pid: 45276, cores: 1)
+spawned uWSGI worker 7 (pid: 45277, cores: 1)
+spawned uWSGI worker 8 (pid: 45278, cores: 1)
+spawned uWSGI worker 9 (pid: 45279, cores: 1)
+Thu May 21 15:53:17 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 10 (pid: 45280, cores: 1)
+[pid: 45279|app: 0|req: 1/1] 90.151.98.146 () {46 vars in 814 bytes} [Thu May 21 12:53:17 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10484 bytes in 59 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:53:17 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45280|app: 0|req: 1/2] 90.151.98.146 () {44 vars in 699 bytes} [Thu May 21 12:53:18 2020] GET /favicon.ico => generated 0 bytes in 17 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:53:18 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45279|app: 0|req: 2/3] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 12:53:18 2020] GET /favicon.ico/ => generated 10075 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 45280|app: 0|req: 2/4] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 12:53:25 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10484 bytes in 49 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 45279|app: 0|req: 3/5] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 12:53:42 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10484 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 45280|app: 0|req: 3/6] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 12:54:36 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10484 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 45279|app: 0|req: 4/7] 90.151.98.146 () {46 vars in 814 bytes} [Thu May 21 12:54:37 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10484 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 45280|app: 0|req: 4/8] 90.151.98.146 () {44 vars in 699 bytes} [Thu May 21 12:54:38 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 45278|app: 0|req: 1/9] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 12:54:38 2020] GET /favicon.ico/ => generated 10075 bytes in 61 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:54:38 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45280|app: 0|req: 5/10] 90.151.98.146 () {46 vars in 814 bytes} [Thu May 21 12:54:47 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10484 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 45279|app: 0|req: 5/11] 90.151.98.146 () {44 vars in 699 bytes} [Thu May 21 12:54:47 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 45272|app: 0|req: 1/12] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 12:54:48 2020] GET /favicon.ico/ => generated 10075 bytes in 62 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 15:54:48 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45280|app: 0|req: 6/13] 90.151.98.146 () {44 vars in 916 bytes} [Thu May 21 12:54:50 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 232 bytes (1 switches on core 0)
+[pid: 45278|app: 0|req: 2/14] 90.151.98.146 () {44 vars in 918 bytes} [Thu May 21 12:54:50 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 2402 bytes in 28 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 45280|app: 0|req: 7/15] 90.151.98.146 () {42 vars in 719 bytes} [Thu May 21 13:01:46 2020] GET / => generated 0 bytes in 2 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 45279|app: 0|req: 6/16] 90.151.98.146 () {42 vars in 761 bytes} [Thu May 21 13:01:46 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10484 bytes in 26 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 45280|app: 0|req: 8/17] 90.151.98.146 () {40 vars in 646 bytes} [Thu May 21 13:01:47 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 45280|app: 0|req: 9/18] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 13:07:58 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10484 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 45279|app: 0|req: 7/19] 90.151.98.146 () {44 vars in 918 bytes} [Thu May 21 13:08:04 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 2402 bytes in 26 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 45280|app: 0|req: 10/20] 90.151.98.146 () {44 vars in 792 bytes} [Thu May 21 13:11:19 2020] GET /%D0%9A%D1%83%D1%80%D1%81%D0%BA/ => generated 10608 bytes in 29 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 16:11:31 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 13:11:31 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 16:11:34 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 16:11:35 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 16:11:37 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 16:11:37 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56311150cd10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56311150cd10 pid: 45525 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 45525)
+Thu May 21 16:11:38 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 45527, cores: 1)
+spawned uWSGI worker 2 (pid: 45528, cores: 1)
+spawned uWSGI worker 3 (pid: 45529, cores: 1)
+spawned uWSGI worker 4 (pid: 45530, cores: 1)
+spawned uWSGI worker 5 (pid: 45531, cores: 1)
+spawned uWSGI worker 6 (pid: 45532, cores: 1)
+spawned uWSGI worker 7 (pid: 45533, cores: 1)
+spawned uWSGI worker 8 (pid: 45534, cores: 1)
+spawned uWSGI worker 9 (pid: 45535, cores: 1)
+Thu May 21 16:11:38 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 10 (pid: 45536, cores: 1)
+[pid: 45536|app: 0|req: 1/1] 162.243.138.213 () {34 vars in 395 bytes} [Thu May 21 13:24:47 2020] GET / => generated 0 bytes in 31 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 16:24:47 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45536|app: 0|req: 2/2] 90.151.98.146 () {44 vars in 918 bytes} [Thu May 21 13:34:17 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 2526 bytes in 150 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 45536|app: 0|req: 3/3] 90.151.98.146 () {44 vars in 980 bytes} [Thu May 21 13:35:19 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 7918 bytes in 27 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 16:36:24 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 13:36:24 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 16:36:27 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 16:36:28 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 16:36:31 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 16:36:31 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x558319691d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558319691d10 pid: 45784 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 45784)
+Thu May 21 16:36:31 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 45786, cores: 1)
+spawned uWSGI worker 2 (pid: 45787, cores: 1)
+spawned uWSGI worker 3 (pid: 45788, cores: 1)
+spawned uWSGI worker 4 (pid: 45789, cores: 1)
+spawned uWSGI worker 5 (pid: 45790, cores: 1)
+spawned uWSGI worker 6 (pid: 45791, cores: 1)
+spawned uWSGI worker 7 (pid: 45792, cores: 1)
+spawned uWSGI worker 8 (pid: 45793, cores: 1)
+spawned uWSGI worker 9 (pid: 45794, cores: 1)
+spawned uWSGI worker 10 (pid: 45795, cores: 1)
+Thu May 21 16:36:31 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+Internal Server Error: /agents/Курск/Сантехник/
+Traceback (most recent call last):
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/django/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/django/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/django/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./prowork/apps/agents/views.py", line 45, in pro
+    return render(request, 'agents/index.html', {
+  File "/home/django/venv/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/django/venv/lib/python3.8/site-packages/django/template/base.py", line 530, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 140: 'endblock'. Did you forget to register or load this tag?
+[pid: 45788|app: 0|req: 1/1] 90.151.98.146 () {46 vars in 1011 bytes} [Thu May 21 13:36:33 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 148146 bytes in 129 msecs (HTTP/1.1 500) 5 headers in 157 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 16:36:33 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45795|app: 0|req: 1/2] 90.151.98.146 () {46 vars in 1011 bytes} [Thu May 21 13:36:45 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 4098 bytes in 62 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 16:36:45 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45794|app: 0|req: 1/3] 90.151.98.146 () {44 vars in 980 bytes} [Thu May 21 13:36:57 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 4098 bytes in 59 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 16:36:57 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45795|app: 0|req: 2/4] 90.151.98.146 () {46 vars in 1011 bytes} [Thu May 21 13:38:51 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 5967 bytes in 25 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[emperor] *** RAGNAROK EVOKED ***
+Thu May 21 16:42:50 2020 - [emperor] stop the uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 13:42:50 2020 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/django/prowork/prowork/uwsgi_nginx.sock removed.
+Thu May 21 16:42:53 2020 - [emperor] removed uwsgi instance /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+Thu May 21 16:42:54 2020 - The Emperor is buried.
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 16:42:56 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+*** starting uWSGI Emperor ***
+*** has_emperor mode detected (fd: 5) ***
+[uWSGI] getting INI configuration from /home/django/prowork/prowork/deployment/prowork_uwsgi.ini
+*** Starting uWSGI 2.0.18-debian (64bit) on [Thu May 21 16:42:56 2020] ***
+compiled with version: 10.0.1 20200405 (experimental) [master revision 0be9efad938:fcb98e4978a:705510a708d3642c9c962beb663c476167e4e8a4] on 11 April 2020 11:15:55
+os: Linux-5.4.0-31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTC 2020
+nodename: 194-67-112-213.cloudvps.regruhosting.ru
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/django/prowork/prowork
+your processes number limit is 1847
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/django/prowork/prowork/uwsgi_nginx.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.2 (default, Apr 27 2020, 15:53:34)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/django/venv
+Set PythonHome to /home/django/venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563bace23d10
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x563bace23d10 pid: 45891 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 45891)
+Thu May 21 16:42:57 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini has been spawned
+spawned uWSGI worker 1 (pid: 45893, cores: 1)
+spawned uWSGI worker 2 (pid: 45894, cores: 1)
+spawned uWSGI worker 3 (pid: 45895, cores: 1)
+spawned uWSGI worker 4 (pid: 45896, cores: 1)
+spawned uWSGI worker 5 (pid: 45897, cores: 1)
+spawned uWSGI worker 6 (pid: 45898, cores: 1)
+spawned uWSGI worker 7 (pid: 45899, cores: 1)
+spawned uWSGI worker 8 (pid: 45900, cores: 1)
+Thu May 21 16:42:57 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is ready to accept requests
+spawned uWSGI worker 9 (pid: 45901, cores: 1)
+spawned uWSGI worker 10 (pid: 45902, cores: 1)
+[pid: 45900|app: 0|req: 1/1] 90.151.98.146 () {48 vars in 1033 bytes} [Thu May 21 13:42:58 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 6248 bytes in 98 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 16:42:58 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45902|app: 0|req: 1/2] 90.151.98.146 () {44 vars in 699 bytes} [Thu May 21 13:42:58 2020] GET /favicon.ico => generated 0 bytes in 17 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 16:42:58 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45900|app: 0|req: 2/3] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 13:42:58 2020] GET /favicon.ico/ => generated 10199 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 45902|app: 0|req: 2/4] 90.151.98.146 () {46 vars in 1011 bytes} [Thu May 21 13:45:41 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 6232 bytes in 56 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 45900|app: 0|req: 3/5] 90.151.98.146 () {48 vars in 1033 bytes} [Thu May 21 13:46:00 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 6216 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 45902|app: 0|req: 3/6] 90.151.98.146 () {44 vars in 699 bytes} [Thu May 21 13:46:00 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (2 switches on core 0)
+[pid: 45899|app: 0|req: 1/7] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 13:46:00 2020] GET /favicon.ico/ => generated 10199 bytes in 62 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 16:46:00 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+[pid: 45902|app: 0|req: 4/8] 45.83.64.37 () {42 vars in 574 bytes} [Thu May 21 13:46:20 2020] GET / => generated 0 bytes in 2 msecs (HTTP/1.1 302) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 45900|app: 0|req: 4/9] 90.151.98.146 () {46 vars in 1011 bytes} [Thu May 21 13:46:20 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 6216 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 45902|app: 0|req: 5/10] 90.151.98.146 () {46 vars in 1011 bytes} [Thu May 21 13:46:44 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 6216 bytes in 25 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 45900|app: 0|req: 5/11] 90.151.98.146 () {48 vars in 1033 bytes} [Thu May 21 13:47:00 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 6216 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 45902|app: 0|req: 6/12] 90.151.98.146 () {44 vars in 699 bytes} [Thu May 21 13:47:00 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 45899|app: 0|req: 2/13] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 13:47:01 2020] GET /favicon.ico/ => generated 10199 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+[pid: 45902|app: 0|req: 7/14] 162.243.144.82 () {34 vars in 418 bytes} [Thu May 21 13:47:18 2020] GET /ReportServer => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 152 bytes (1 switches on core 0)
+[pid: 45902|app: 0|req: 8/15] 90.151.98.146 () {46 vars in 902 bytes} [Thu May 21 13:48:00 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 6238 bytes in 26 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 45900|app: 0|req: 6/16] 90.151.98.146 () {44 vars in 699 bytes} [Thu May 21 13:48:01 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 45899|app: 0|req: 3/17] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 13:48:01 2020] GET /favicon.ico/ => generated 10210 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+Not Found: /agents/Курск/Сантехник/ruprowork.ru
+[pid: 45902|app: 0|req: 9/18] 90.151.98.146 () {44 vars in 1004 bytes} [Thu May 21 13:48:02 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ruprowork.ru => generated 3183 bytes in 12 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Thu May 21 13:48:09 2020 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /favicon.ico (ip 90.151.98.146) !!!
+Thu May 21 13:48:09 2020 - uwsgi_response_write_headers_do(): Broken pipe [core/writer.c line 248] during GET /favicon.ico (90.151.98.146)
+OSError: write error
+[pid: 45900|app: 0|req: 7/19] 90.151.98.146 () {40 vars in 646 bytes} [Thu May 21 13:48:09 2020] GET /favicon.ico => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 0 bytes (0 switches on core 0)
+Not Found: /agents/Курск/Сантехник/ruprowork.ru
+[pid: 45902|app: 0|req: 10/20] 90.151.98.146 () {44 vars in 1004 bytes} [Thu May 21 13:48:33 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ruprowork.ru => generated 3183 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 45900|app: 0|req: 8/21] 90.151.98.146 () {44 vars in 880 bytes} [Thu May 21 13:48:50 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 6238 bytes in 25 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+Not Found: /agents/Курск/Сантехник/ruprowork.ru
+[pid: 45902|app: 0|req: 11/22] 90.151.98.146 () {44 vars in 1004 bytes} [Thu May 21 13:48:51 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ruprowork.ru => generated 3183 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /agents/Курск/Сантехник/ruprowork.ru
+[pid: 45900|app: 0|req: 9/23] 90.151.98.146 () {44 vars in 1004 bytes} [Thu May 21 13:48:57 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ruprowork.ru => generated 3183 bytes in 9 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 45902|app: 0|req: 12/24] 90.151.98.146 () {46 vars in 902 bytes} [Thu May 21 13:49:15 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ => generated 6238 bytes in 26 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 45900|app: 0|req: 10/25] 90.151.98.146 () {44 vars in 699 bytes} [Thu May 21 13:49:16 2020] GET /favicon.ico => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 151 bytes (1 switches on core 0)
+[pid: 45895|app: 0|req: 1/26] 90.151.98.146 () {44 vars in 701 bytes} [Thu May 21 13:49:16 2020] GET /favicon.ico/ => generated 10214 bytes in 63 msecs (HTTP/1.1 200) 4 headers in 138 bytes (1 switches on core 0)
+announcing my loyalty to the Emperor...
+Thu May 21 16:49:16 2020 - [emperor] vassal /home/django/prowork/prowork/deployment/prowork_uwsgi.ini is now loyal
+Not Found: /agents/Курск/Сантехник/ruprowork.ru
+[pid: 45902|app: 0|req: 13/27] 90.151.98.146 () {44 vars in 1004 bytes} [Thu May 21 13:49:16 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ruprowork.ru => generated 3183 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /agents/Курск/Сантехник/ruprowork.ru
+[pid: 45900|app: 0|req: 11/28] 90.151.98.146 () {44 vars in 1004 bytes} [Thu May 21 13:49:34 2020] GET /agents/%D0%9A%D1%83%D1%80%D1%81%D0%BA/%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA/ruprowork.ru => generated 3183 bytes in 9 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)

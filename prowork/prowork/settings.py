@@ -27,7 +27,12 @@ SECRET_KEY = 'yxgic8wdm$-%l1sdind$v)q5jpfnr_&tubuwc56-x81-se$-wc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '194.67.112.213:80',
+    '194.67.112.213',
+    'ruprowork.ru',
+    'www.ruprowork.ru',
+]
 
 
 # Application definition
@@ -88,9 +93,9 @@ WSGI_APPLICATION = 'prowork.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django_db',
-        'USER': 'amada',
-        'PASSWORD': 'qwerty123',
+        'NAME': 'prowork',
+        'USER': 'django',
+        'PASSWORD': 'KurskRulit777',
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -135,12 +140,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "base_static"),
     # '/var/www/static/',
 )
 
 STATIC_URL = '/static/'
-# STATIC_ROOT = 'static'
+STATIC_ROOT = 'static'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = 'media'

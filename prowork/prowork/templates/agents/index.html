@@ -3,7 +3,8 @@
 {% block title %}Agents{% endblock %}
 {% block stat %}<link rel="stylesheet" href="{% static 'css/agents_style.css' %}">{% endblock %}
 
-{% block content %}
+{% block general %}
+
 <div class="m-menu-wrapper">
   <header class="m-header">
     <div class="m-container">
@@ -56,14 +57,16 @@
     </div>
   </header>
   </div>
+
     <main>
       <section id="anch-masters" class="agents">
         <div class="wrapper">
-          <h2>Meet Our Agents</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+          <h2>Знакомьтесь с нашими мастерами!</h2>
+          <p>Как получить услуга?</p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br />
-            Neque dicta cupiditate officia.
+            Внимательно ознакомьтесь с перечнем основных услуг мастера.<br />
+            После этого <a href="#anch-contacts" class="m-link">позвоните</a> нам или 
+            <a href="#anch-contacts" class="m-link">напишите</a> на нашу почту.
           </p>
 
           <div class="agent-cards">
@@ -103,6 +106,7 @@
           </div>
         </div>
       </section>
+{% endblock %}
 
       <section class="apartmens">
         <div class="u-wrapper uslugi">
@@ -135,44 +139,4 @@
           </ul>
         </div>
       </section>
-
-
-        <section id="anch-contacts" class="contacts">
-          <div class="wrap">
-            <div class="contacts_form wrapper">
-              <h3>Свяжитесь с нами:</h3>
-              <p class="phone">
-                <span class="jir">Phone: </span>+7 777 777 77 77
-              </p>
-              <p class="email">
-                <span class="jir">Email: </span>hello@world.com
-              </p>
-            </div>
-          </div>
-        </section>
-     
-    </main>
-
-
-    <footer>
-      <div class="wrapper">
-        <div class="footer-block">
-          <div class="footer-logo">
-            <h3>Luxestate</h3>
-            <h3>Explore Real Estate</h3>
-          </div>
-          <div class="footer-text">
-            <p>
-              Сайт не является публичной офертой и носит информационный 
-              характер.<br />             
-            </p>
-            <p class="sobaka">
-              ©All rights reserved
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-  <script src="{% static 'js/agents_script.js' %}"></script>
-{% endblock %}
+  

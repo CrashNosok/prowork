@@ -9,7 +9,7 @@
 </script>
 {% endblock %}
 
-{% block content %}
+{% block general %}
 
 
 <div class="m-menu-wrapper">
@@ -71,12 +71,12 @@
       <section class="intro wrapper" id="anch-start">
         <div class="intro-img">
           <p class="intro-text">
-            Find Your New<br />
-            Modern Apartment
+            Prowork-твой<br />
+            личный мастер!
           </p>
         </div>
         <div class="intro-contacts">
-          <p><i class="fas fa-phone-alt"></i>(000)1234-567</p>
+          <p><i class="fas fa-phone-alt"></i>(961)1686-004</p>
           <p><i class="fas fa-map-marker-alt"></i> <a id="second_btn" href="#">{{ city }}</a> </p>
         </div>
       </section>
@@ -85,184 +85,130 @@
       <section class="services wrapper2">
         <div class="wrapper">
         <h2 id="anch-about">О нас</h2>
-        <p class="serv-desc">Lorem ipsum dolor sit amet consectetur.</p>
-        <p class="serv-desc">Lorem ipsum dolor sit amet.</p>
+        <p class="serv-desc">Сломался унитаз или течёт раковина?</p>
+        <p class="serv-desc">Нужно провести розетки, а Вы не знаете как?</p>
+        <p class="serv-desc">Prowork поможет!</p>
+        <p class="serv-desc">Широкий спектор услуг: от сантехнических работ до электрики и работы спецтехники!</p>
+        <p class="serv-desc">Почему Prowork?</p>
         <div class="serv-container">
           <div class="serv-img-container">
             <img src="{% static 'img/servroom.jpg' %}" alt="" />
           </div>
           <div class="serv-text">
-            <h4>Renting</h4>
+            <h4>Высокое качество</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
-              laborum, necessitatibus facere atque ducimus ut corporis
-              consectetur ea voluptatibus reprehenderit deleniti quam voluptas.
+              Мы очень трепетно относимся к выполнению любых видов работ! 
+              Поэтому достойное качество определённо является одной из сильных сторон Prowork. 
+              Не сомневайтесь, Вы будете довольными! 
             </p>
-            <h4>Renting</h4>
+            <h4>Квалифицированные специалисты</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
-              laborum, necessitatibus facere atque ducimus ut corporis
-              consectetur ea voluptatibus reprehenderit deleniti quam voluptas.
+              В Prowork работают только высококвалифицированные специалисты, 
+              хорошо знающие своё дело. Кроме того, у работников имеются разрешение 
+              на работу со специализированной техникой. 
             </p>
-            <h4>Renting</h4>
+            <h4>Доступная цена</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
-              laborum, necessitatibus facere atque ducimus ut corporis
-              consectetur ea voluptatibus reprehenderit deleniti quam voluptas.
+              Демократические цены, а также действующие скидки и акции без труда позволят выбрать необходимую Вам услугу!
             </p>
           </div>
         </div>
       </div>
       </section>
 
+  {% endblock %}
 
-      <section class="apartmens">
-        <div class="u-wrapper uslugi">
-          <h2 id="anch-uslugi">
-            Lorem, ipsum dolor.
-          </h2>
-          <p class="par">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-          <ul class="cards">
-
-            {% if persons %}
-
-            {% for prof in persons %}
-              <li class="h-list">
-                <div class="descr">
-                  <h3 class="headline">{{ prof.profession }}</h3>
-                  <p>{{ prof.profession_description }}</p>
-                  <div class="h-link">
-                    <a href="/agents/{{ city }}/{{ prof.profession }}" class="h-button">К нашим мастерам</a>
-                  </div>
-                </div>
-                <img class="u-img" src="/static/img/{{ prof.profession }}.jpg" alt="Alt" />
-              </li>
-            {% endfor %}
-
-            {% else %}
-            <p>На данный момент мы не работаем в Вашем городе</p>
-
-            {% endif %}
-
-          </ul>
-        </div>
-      </section>
-
+  {% block reviews %}
 
         <section class="c-header">
           <h2 id="anch-feedback" class="c-header2">Наши клиенты любят нас</h2>
           <ul class="c-cards">
+
             <li>
               <div class="c-container">
                 <div class="c-header-body">
                   <a href="#" class="c-header-logo">
-                    <img src="{% static 'img/avatar1.jpg' %}" alt="">
+                    <img src="{% static 'img/avatar_man.jpg' %}" alt="">
                   </a>
                   <div class="media-body">
-                    <h4 class="media-heading">Имя Фамилия</h4>
-                    <span>Клиент</span>
+                    <h4 class="media-heading">Михаил Р.</h4>
+                    <span>18.01.2020 </span>
                   </div>
                 </div>
                 <div class="feedback-text">
-                  <p>Далеко-далеко за словесными горами в 
-                    стране гласных и согласных живут рыбные тексты. 
-                    Мир коварных ipsum которой родного?</p>
+                  <p>
+                    Ребята хорошие и веселые, но разобраться до конца не смогли...
+                    Оплату, к удивлению, за не выполненную работу не взяли!
+                    Обещали обдумать ситуацию и заехать ещё. Ждём)
+                  </p>
                 </div>
               </div>
             </li>
+
             <li>
               <div class="c-container">
                 <div class="c-header-body">
                   <a href="#" class="c-header-logo">
-                    <img src="{% static 'img/avatar1.jpg' %}" alt="">
+                    <img src="{% static 'img/avatar_girl.png' %}" alt="">
                   </a>
                   <div class="media-body">
-                    <h4 class="media-heading">Имя Фамилия</h4>
-                    <span>Клиент</span>
+                    <h4 class="media-heading">Марина Ж.</h4>
+                    <span>26.01.2020</span>
                   </div>
                 </div>
                 <div class="feedback-text">
-                  <p>Далеко-далеко за словесными горами в 
-                    стране гласных и согласных живут рыбные тексты. 
-                    Мир коварных ipsum которой родного?</p>
+                  <p>
+                  1) Добросовестная работа сотрудников компании. 
+                  2) Хорошие цены на услуги. 
+                  3) после того как позвонила, приехал мастер. 
+                  4) Вызывала для установки электрики. За пару часов всё выполнил.
+                </p>
                 </div>
               </div>
             </li>
+
             <li>
               <div class="c-container">
                 <div class="c-header-body">
                   <a href="#" class="c-header-logo">
-                    <img src="{% static 'img/avatar1.jpg' %}" alt="">
+                    <img src="{% static 'img/avatar_girl.png' %}" alt="">
                   </a>
                   <div class="media-body">
-                    <h4 class="media-heading">Имя Фамилия</h4>
-                    <span>Клиент</span>
+                    <h4 class="media-heading">Наталья С.</h4>
+                    <span>20.02.2020</span>
                   </div>
                 </div>
                 <div class="feedback-text">
-                  <p>Далеко-далеко за словесными горами в 
-                    стране гласных и согласных живут рыбные тексты. 
-                    Мир коварных ipsum которой родного?</p>
+                  <p>
+                    Срочно нужен был электрик. Позвонила - приехал в течение 15 минут, всё сделал. Осталась довольна!  
+                  </p>
                 </div>
               </div>
             </li>
+
             <li>
               <div class="c-container">
                 <div class="c-header-body">
                   <a href="#" class="c-header-logo">
-                    <img src="{% static 'img/avatar1.jpg' %}" alt="">
+                    <img src="{% static 'img/avatar_man.jpg' %}" alt="">
                   </a>
                   <div class="media-body">
-                    <h4 class="media-heading">Имя Фамилия</h4>
-                    <span>Клиент</span>
+                    <h4 class="media-heading">Устин Л.</h4>
+                    <span>06.02.2020</span>
                   </div>
                 </div>
                 <div class="feedback-text">
-                  <p>Далеко-далеко за словесными горами в 
-                    стране гласных и согласных живут рыбные тексты. 
-                    Мир коварных ipsum которой родного?</p>
+                  <p>
+                    Отличная команда,сделали весь объем за один день,сэкономили много времени!
+                    спасибо! 
+                  </p>
                 </div>
               </div>
             </li>
+
           </ul>
         </section>
 
-        <section id="anch-contacts" class="contacts">
-          <div class="wrap">
-            <div class="contacts_form wrapper">
-              <h3>Свяжитесь с нами:</h3>
-              <p class="phone">
-                <span class="jir">Phone: </span>+7 777 777 77 77
-              </p>
-              <p class="email">
-                <span class="jir">Email: </span>hello@world.com
-              </p>
-            </div>
-          </div>
-        </section>
-     
+    {% endblock %}
+    
     </main>
-
-
-    <footer>
-      <div class="wrapper">
-        <div class="footer-block">
-          <div class="footer-logo">
-            <h3>Luxestate</h3>
-            <h3>Explore Real Estate</h3>
-          </div>
-          <div class="footer-text">
-            <p>
-              Сайт не является публичной офертой и носит информационный 
-              характер.<br />             
-            </p>
-            <p class="sobaka">
-              ©All rights reserved
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-  <script src="{% static 'js/general_script.js' %}"></script>
-{% endblock %}
