@@ -223,7 +223,7 @@ html {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     /* 2 - размер строки, 1fr - единица гипкости. */
-    grid-template-rows: repeat(1, 2fr);
+    grid-template-rows: repeat(2, 2fr);
     /* отступы между элементами */
     grid-column-gap: 30px;
     grid-row-gap: 30px;
@@ -553,11 +553,17 @@ footer {
     /* -------------- 3 block form -------------- */
     .cards {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: repeat(4, 2fr);
         /* grid-column-gap: 0px; */
         grid-row-gap: 10px;
         justify-items: center;
+    }
+    /* .h-list {
+        min-height: 400px;
+    } */
+    .descr {
+        padding-top: 80px;
     }
     .uslugi li {
         width: auto;
