@@ -7,7 +7,7 @@ from django.http import HttpResponseRedirect # , Http404
 def index_city(request, city_url):
     workers_list = Agent.objects.filter(city=city_url).order_by('priority')
     for worker in workers_list:
-        worker.serv = worker.services.split(';')
+        worker.serv = worker.services.split('\n')
     city_list = {elem.city for elem in Agent.objects.all()}
     city_list = sorted(city_list)
     if city_url not in city_list:
