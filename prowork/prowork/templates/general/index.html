@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/6244ce2d4b.js"
       crossorigin="anonymous">
 </script>
+<script src="{% static 'js/general_script.js' %}"></script>
 {% endblock %}
 
 {% block general %}
@@ -16,7 +17,7 @@
   <header class="m-header">
     <div class="m-container">
       <div class="m-header-body">
-        <a href="#" class="m-header-logo">
+        <a href="{% url "general:city_url" city_url=city %}" class="m-header-logo">
           <img src="{% static 'img/logo.jpg' %}" alt="">
         </a>
         <div class="m-header-burger">

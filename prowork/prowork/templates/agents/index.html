@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block title %}Agents{% endblock %}
-{% block stat %}<link rel="stylesheet" href="{% static 'css/agents_style.css' %}">{% endblock %}
+{% block stat %}
+  <link rel="stylesheet" href="{% static 'css/agents_style.css' %}">
+  <script src="{% static 'js/agents_script.js' %}"></script>
+{% endblock %}
 
 {% block general %}
 
@@ -9,7 +12,7 @@
   <header class="m-header">
     <div class="m-container">
       <div class="m-header-body">
-        <a href="#" class="m-header-logo">
+        <a href="{% url "general:city_url" city_url=city %}" class="m-header-logo">
           <img src="{% static 'img/logo.jpg' %}" alt="">
         </a>
         <div class="m-header-burger">
@@ -18,7 +21,7 @@
         <nav class="m-header-menu">
           <ul class="m-header-list">
             <li>
-              <a href="#" class="m-header-link gen_menu">На главную</a>
+              <a href="{% url "general:city_url" city_url=city %}" class="m-header-link gen_menu">На главную</a>
             </li>
             <li>
               <a href="#anch-masters" class="m-header-link gen_menu">Мастера</a>
@@ -79,12 +82,14 @@
                     <img src={{ worker.avatar.url }} alt="">
                 <div class="agent-info">
                   <div class="name-email">
-                    <p>{{ worker.profession }}</p>
-                    <p class="email">{{ worker.email }}</p>
+                    <p class="agent-name">{{ worker.name }}</p>
+                    <p class="agent-profession">{{ worker.profession }}</p>
                   </div>
                   <div class="agent-block">
-                    <p class="agent-name">{{ worker.name }}</p>
                     <p class="phone">{{ worker.phone }}</p>
+                  </div>
+                  <div class="agent-block2">
+                    <p class="email">{{ worker.email }}</p>
                   </div>
                 </div>
               </div>

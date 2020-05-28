@@ -28,10 +28,16 @@
     justify-content: space-between;
 }
 
+.agent-block2 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .agent-card {
     margin-bottom: 50px;
     max-width: 344px;
     min-width: 344px;
+    max-height: 600px;
     /* min-width: 100%; */
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -67,6 +73,20 @@
     color: #ffcc01;
 }
 
+.agent-block2 .email {
+    margin-right: 20px;
+    font-size: 17px;
+    color: #ffcc01;
+}
+
+.agent-name {
+    font-size: 17px;
+}
+
+.agent-profession {
+    font-size: 17px;
+}
+
 .agent-cards {
     /* display: flex; */
     /* justify-content: space-between; */
@@ -82,9 +102,16 @@
     font-size: 25px;
 }
 
-.agent-uslugi {
+.agent-uslugi:first-child {
     margin-top: -57px;
-    margin-left: 30px;
+    /* margin-left: -280px; */
+    /* padding-bottom: 0px; */
+}
+
+.agent-uslugi {
+    /* margin-left: 800px; */
+    padding-left: 20px;
+    max-width: 420px;
 }
 
 .uslugi-list {
@@ -102,6 +129,10 @@
 
 .uslugi-link:hover {
     color: #ffcc01;
+}
+
+.agent-profession {
+    margin-right: 100px;
 }
 
 @media screen and (max-width: 769px) {

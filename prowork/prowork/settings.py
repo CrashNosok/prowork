@@ -25,7 +25,7 @@ sys.path.insert(0, os.path.join(PROJECT_ROOT, 'apps'))
 SECRET_KEY = 'yxgic8wdm$-%l1sdind$v)q5jpfnr_&tubuwc56-x81-se$-wc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '194.67.112.213:80',
@@ -141,6 +141,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "base_static"),
+    # os.path.join(BASE_DIR, "static"),
     # '/var/www/static/',
 )
 

@@ -390,7 +390,7 @@ html {
 }
 
 .contacts_form p {
-    margin-left: 35%;
+    margin-left: 30%;
     font-size: 20px;
 }
 
@@ -632,11 +632,14 @@ footer {
         width: 320px;
     }
     .contacts_form p {
-        margin-left: 23%;
+        margin-left: 18%;
         font-size: 15px;
     }
     .contacts_form h3 {
         margin-left: 15%;
+    }
+    .wrap {
+        margin-left: -2%;
     }
     /* -------------- footer -------------- */
     .footer-text p {
